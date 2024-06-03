@@ -1242,7 +1242,6 @@ floorPlanActivateDefaultSpot();););
 
 	<layer name="webvrbutton"
 		keep="true"
-		devices="mobile"
 		blocked="false"
 		alpha="1"
 		url="%FIRSTXML%/graphics/webvrbutton/btn_webvr.png"
@@ -1264,13 +1263,12 @@ floorPlanActivateDefaultSpot();););
 
 	<events name="webvrbuttonevents"
 		onvrunavailable="hidewebvrbutton(true);"
-		devices="mobile"
 		onTourStart="showwebvrbutton();"
 		hidetourcontrols="hidewebvrbutton();"
 		showtourcontrols="showwebvrbutton();"
 		keep="true" />
-	<action name="hidewebvrbutton" devices="mobile">if(%1 == true,set(layer[webvrbutton].blocked, true););set(layer[webvrbutton].visible, false);</action>
-	<action name="showwebvrbutton" devices="mobile">if(tour_displaycontrols,if(layer[webvrbutton].blocked == false,set(layer[webvrbutton].visible, true););,hidewebvrbutton(););</action>
+	<action name="hidewebvrbutton">if(%1 == true,set(layer[webvrbutton].blocked, true););set(layer[webvrbutton].visible, false);</action>
+	<action name="showwebvrbutton">if(tour_displaycontrols,if(layer[webvrbutton].blocked == false,set(layer[webvrbutton].visible, true););,hidewebvrbutton(););</action>
 
 
 
@@ -1333,7 +1331,7 @@ floorPlanActivateDefaultSpot();););
 		<option name="orientation" value="horizontal" type="string" />
 		<option name="sub_orientation" value="vertical" type="string" />
 		<option name="margin_x" value="35" type="int" />
-		<option name="margin_y" value="-5" type="int" />
+		<option name="margin_y" value="-10" type="int" />
 		<option name="background_color" value="017876" type="string" />
 		<option name="background_alpha" value="0" type="float" />
 		<option name="item_spacer" value="5" type="int" />
@@ -1837,9 +1835,9 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
 	show_originalhotspots_d="false"
 
 	show_floatingarrow_m="true"
-	show_chevrons_m="false"
-	show_navpoints_m="false"
-	show_contextmenu_m="true"
+	show_chevrons_m="true"
+	show_navpoints_m="true"
+	show_contextmenu_m="false"
 	show_originalhotspots_m="false"
 
 	show_floatingarrow_vr="true"
@@ -1855,7 +1853,7 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
 	floatingarrow_atv="25"
 	floatingarrow_alpha="0.5"
 
-	navhotspots_style="ponto"
+	navhotspots_style="Icoponton"
 	navhotspots_style_vertical="IconDefaultPointSpotStyle1"
 
 	startup_delay="0"

@@ -47,9 +47,9 @@
 	show_originalhotspots_d="false"
 
 	show_floatingarrow_m="true"
-	show_chevrons_m="false"
-	show_navpoints_m="false"
-	show_contextmenu_m="true"
+	show_chevrons_m="true"
+	show_navpoints_m="true"
+	show_contextmenu_m="false"
 	show_originalhotspots_m="false"
 
 	show_floatingarrow_vr="true"
@@ -65,7 +65,7 @@
 	floatingarrow_atv="25"
 	floatingarrow_alpha="0.5"
 
-	navhotspots_style="ponto"
+	navhotspots_style="Icoponton"
 	navhotspots_style_vertical="IconDefaultPointSpotStyle1"
 
 	startup_delay="0"
