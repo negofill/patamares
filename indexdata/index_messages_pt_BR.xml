@@ -78,8 +78,12 @@
   <data name="pt_BR_gallery1close_text"><![CDATA[Close]]></data>
   <data name="pt_BR_gallery1picture_title0"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_caption0"><![CDATA[]]></data>
+  <data name="pt_BR_gallery1picture_title12"><![CDATA[]]></data>
+  <data name="pt_BR_gallery1picture_caption12"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_title1"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_caption1"><![CDATA[]]></data>
+  <data name="pt_BR_gallery1picture_title15"><![CDATA[]]></data>
+  <data name="pt_BR_gallery1picture_caption15"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_title2"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_caption2"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_title3"><![CDATA[]]></data>
@@ -100,14 +104,10 @@
   <data name="pt_BR_gallery1picture_caption10"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_title11"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_caption11"><![CDATA[]]></data>
-  <data name="pt_BR_gallery1picture_title12"><![CDATA[]]></data>
-  <data name="pt_BR_gallery1picture_caption12"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_title13"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_caption13"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_title14"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_caption14"><![CDATA[]]></data>
-  <data name="pt_BR_gallery1picture_title15"><![CDATA[]]></data>
-  <data name="pt_BR_gallery1picture_caption15"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_title16"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_caption16"><![CDATA[]]></data>
   <data name="pt_BR_gallery2fullscreen_text"><![CDATA[Fullscreen mode]]></data>

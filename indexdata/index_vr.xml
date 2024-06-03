@@ -112,8 +112,8 @@
        full360="true"
        video="false"
        seen="false">
-    <autorotate horizon="-6.761833" tofov="67.618332" waittime="1" speed="5"/>
-    <panoview h="14.199850" v="-6.761833" fov="67.618332" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
+    <autorotate horizon="-6.761830" tofov="67.618300" waittime="1" speed="5"/>
+    <panoview h="14.199800" v="-6.761830" fov="67.618300" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
     <view fisheye="0"
           limitview="range"
           hlookatmin="-180"
@@ -123,9 +123,9 @@
           maxpixelzoom="1.0"
           fovtype="VFOV"
           fovmax="90"
-          fov="67.618332"
-          hlookat="14.199850"
-          vlookat="-6.761833"/>
+          fov="67.618300"
+          hlookat="14.199800"
+          vlookat="-6.761830"/>
     <preview url="%FIRSTXML%/fachada_30/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
       <level tiledimagewidth="3584" tiledimageheight="3584">
@@ -174,7 +174,7 @@
 
 
   <hotspot name="spotpoint60"
-           ath="131.824163" atv="0.272562"
+           ath="131.824071" atv="0.272523"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -199,7 +199,7 @@
 
 
   <hotspot name="spotpoint61"
-           ath="-0.764099" atv="-9.951397"
+           ath="-0.763925" atv="-9.951478"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -224,7 +224,7 @@
 
 
   <hotspot name="spotpoint70"
-           ath="138.821770" atv="0.490612"
+           ath="138.821762" atv="0.490683"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -249,7 +249,7 @@
 
 
   <hotspot name="spotpoint101"
-           ath="-40.717575" atv="-0.571264"
+           ath="-40.717435" atv="-0.571321"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -345,8 +345,8 @@
        full360="true"
        video="false"
        seen="false">
-    <autorotate horizon="-0.859091" tofov="81.818182" waittime="1" speed="5"/>
-    <panoview h="52.854545" v="-0.859091" fov="81.818182" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
+    <autorotate horizon="-0.859091" tofov="81.818200" waittime="1" speed="5"/>
+    <panoview h="52.854500" v="-0.859091" fov="81.818200" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
     <view fisheye="0"
           limitview="range"
           hlookatmin="-180"
@@ -356,8 +356,8 @@
           maxpixelzoom="1.0"
           fovtype="VFOV"
           fovmax="90"
-          fov="81.818182"
-          hlookat="52.854545"
+          fov="81.818200"
+          hlookat="52.854500"
           vlookat="-0.859091"/>
     <preview url="%FIRSTXML%/piscina1_33/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
@@ -404,7 +404,7 @@
 
 
   <hotspot name="spotpoint62"
-           ath="94.293893" atv="-13.230174"
+           ath="94.293723" atv="-13.230178"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -429,7 +429,7 @@
 
 
   <hotspot name="spotpoint63"
-           ath="4.770146" atv="0.821739"
+           ath="4.769998" atv="0.821700"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -454,7 +454,7 @@
 
 
   <hotspot name="spotpoint64"
-           ath="160.350877" atv="1.529412"
+           ath="160.350845" atv="1.529460"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -479,7 +479,7 @@
 
 
   <hotspot name="spotpoint65"
-           ath="-170.979021" atv="0.315789"
+           ath="-170.979012" atv="0.315717"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -504,7 +504,7 @@
 
 
   <hotspot name="spotpoint76"
-           ath="108.087698" atv="1.100244"
+           ath="108.087831" atv="1.100156"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -603,8 +603,8 @@
        full360="true"
        video="false"
        seen="false">
-    <autorotate horizon="-0.647107" tofov="74.380165" waittime="1" speed="5"/>
-    <panoview h="1.800000" v="-0.647107" fov="74.380165" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
+    <autorotate horizon="-0.647107" tofov="74.380200" waittime="1" speed="5"/>
+    <panoview h="1.800000" v="-0.647107" fov="74.380200" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
     <view fisheye="0"
           limitview="range"
           hlookatmin="-180"
@@ -614,7 +614,7 @@
           maxpixelzoom="1.0"
           fovtype="VFOV"
           fovmax="90"
-          fov="74.380165"
+          fov="74.380200"
           hlookat="1.800000"
           vlookat="-0.647107"/>
     <preview url="%FIRSTXML%/churrasqueira_28/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
@@ -662,7 +662,7 @@
 
 
   <hotspot name="spotpoint68"
-           ath="-180.000000" atv="4.244833"
+           ath="-180.000000" atv="4.244757"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -725,8 +725,8 @@
        full360="true"
        video="false"
        seen="false">
-    <autorotate horizon="3.893802" tofov="74.380165" waittime="1" speed="5"/>
-    <panoview h="-58.674793" v="3.893802" fov="74.380165" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
+    <autorotate horizon="3.893800" tofov="74.380200" waittime="1" speed="5"/>
+    <panoview h="-58.674800" v="3.893800" fov="74.380200" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
     <view fisheye="0"
           limitview="range"
           hlookatmin="-180"
@@ -736,9 +736,9 @@
           maxpixelzoom="1.0"
           fovtype="VFOV"
           fovmax="90"
-          fov="74.380165"
-          hlookat="-58.674793"
-          vlookat="3.893802"/>
+          fov="74.380200"
+          hlookat="-58.674800"
+          vlookat="3.893800"/>
     <preview url="%FIRSTXML%/parquinho_31/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
       <level tiledimagewidth="3584" tiledimageheight="3584">
@@ -784,7 +784,7 @@
 
 
   <hotspot name="spotpoint66"
-           ath="-16.959064" atv="2.470588"
+           ath="-16.959243" atv="2.470679"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -809,7 +809,7 @@
 
 
   <hotspot name="spotpoint67"
-           ath="8.161994" atv="-0.062805"
+           ath="8.161919" atv="-0.062817"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -881,8 +881,8 @@
        full360="true"
        video="false"
        seen="false">
-    <autorotate horizon="0.450000" tofov="74.380165" waittime="1" speed="5"/>
-    <panoview h="0.933471" v="0.450000" fov="74.380165" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
+    <autorotate horizon="0.450000" tofov="74.380200" waittime="1" speed="5"/>
+    <panoview h="0.933471" v="0.450000" fov="74.380200" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
     <view fisheye="0"
           limitview="range"
           hlookatmin="-180"
@@ -892,7 +892,7 @@
           maxpixelzoom="1.0"
           fovtype="VFOV"
           fovmax="90"
-          fov="74.380165"
+          fov="74.380200"
           hlookat="0.933471"
           vlookat="0.450000"/>
     <preview url="%FIRSTXML%/academia_externa_24/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
@@ -940,7 +940,7 @@
 
 
   <hotspot name="spotpoint73"
-           ath="7.086614" atv="2.398815"
+           ath="7.086589" atv="2.398860"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -965,7 +965,7 @@
 
 
   <hotspot name="spotpoint74"
-           ath="88.405512" atv="7.551826"
+           ath="88.405566" atv="7.551899"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -1037,8 +1037,8 @@
        full360="true"
        video="false"
        seen="false">
-    <autorotate horizon="-2.328099" tofov="74.380165" waittime="1" speed="5"/>
-    <panoview h="32.887190" v="-2.328099" fov="74.380165" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
+    <autorotate horizon="-2.328100" tofov="74.380200" waittime="1" speed="5"/>
+    <panoview h="32.887200" v="-2.328100" fov="74.380200" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
     <view fisheye="0"
           limitview="range"
           hlookatmin="-180"
@@ -1048,9 +1048,9 @@
           maxpixelzoom="1.0"
           fovtype="VFOV"
           fovmax="90"
-          fov="74.380165"
-          hlookat="32.887190"
-          vlookat="-2.328099"/>
+          fov="74.380200"
+          hlookat="32.887200"
+          vlookat="-2.328100"/>
     <preview url="%FIRSTXML%/quadra_34/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
       <level tiledimagewidth="3584" tiledimageheight="3584">
@@ -1096,7 +1096,7 @@
 
 
   <hotspot name="spotpoint78"
-           ath="140.856672" atv="1.788079"
+           ath="140.856850" atv="1.788121"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -1159,8 +1159,8 @@
        full360="true"
        video="false"
        seen="false">
-    <autorotate horizon="11.004545" tofov="81.818182" waittime="1" speed="5"/>
-    <panoview h="-4.009091" v="11.004545" fov="81.818182" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
+    <autorotate horizon="11.004500" tofov="81.818200" waittime="1" speed="5"/>
+    <panoview h="-4.009090" v="11.004500" fov="81.818200" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
     <view fisheye="0"
           limitview="range"
           hlookatmin="-180"
@@ -1170,9 +1170,9 @@
           maxpixelzoom="1.0"
           fovtype="VFOV"
           fovmax="90"
-          fov="81.818182"
-          hlookat="-4.009091"
-          vlookat="11.004545"/>
+          fov="81.818200"
+          hlookat="-4.009090"
+          vlookat="11.004500"/>
     <preview url="%FIRSTXML%/petpark_32/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
       <level tiledimagewidth="3584" tiledimageheight="3584">
@@ -1218,7 +1218,7 @@
 
 
   <hotspot name="spotpoint79"
-           ath="-8.987854" atv="-2.070365"
+           ath="-8.987761" atv="-2.070360"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -1243,7 +1243,7 @@
 
 
   <hotspot name="spotpoint80"
-           ath="29.817296" atv="-1.760391"
+           ath="29.817367" atv="-1.760398"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -1315,8 +1315,8 @@
        full360="true"
        video="false"
        seen="false">
-    <autorotate horizon="0.427686" tofov="74.380165" waittime="1" speed="5"/>
-    <panoview h="74.435950" v="0.427686" fov="74.380165" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
+    <autorotate horizon="0.427686" tofov="74.380200" waittime="1" speed="5"/>
+    <panoview h="74.436000" v="0.427686" fov="74.380200" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
     <view fisheye="0"
           limitview="range"
           hlookatmin="-180"
@@ -1326,8 +1326,8 @@
           maxpixelzoom="1.0"
           fovtype="VFOV"
           fovmax="90"
-          fov="74.380165"
-          hlookat="74.435950"
+          fov="74.380200"
+          hlookat="74.436000"
           vlookat="0.427686"/>
     <preview url="%FIRSTXML%/salao_de_festas_38/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
@@ -1374,7 +1374,7 @@
 
 
   <hotspot name="spotpoint77"
-           ath="27.716156" atv="2.116183"
+           ath="27.716038" atv="2.116263"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -1437,8 +1437,8 @@
        full360="true"
        video="false"
        seen="false">
-    <autorotate horizon="5.887190" tofov="74.380165" waittime="1" speed="5"/>
-    <panoview h="-30.971901" v="5.887190" fov="74.380165" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
+    <autorotate horizon="5.887190" tofov="74.380200" waittime="1" speed="5"/>
+    <panoview h="-30.971900" v="5.887190" fov="74.380200" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
     <view fisheye="0"
           limitview="range"
           hlookatmin="-180"
@@ -1448,8 +1448,8 @@
           maxpixelzoom="1.0"
           fovtype="VFOV"
           fovmax="90"
-          fov="74.380165"
-          hlookat="-30.971901"
+          fov="74.380200"
+          hlookat="-30.971900"
           vlookat="5.887190"/>
     <preview url="%FIRSTXML%/academia_25/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
@@ -1496,7 +1496,7 @@
 
 
   <hotspot name="spotpoint71"
-           ath="-111.324423" atv="4.494519"
+           ath="-111.324602" atv="4.494599"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -1521,7 +1521,7 @@
 
 
   <hotspot name="spotpoint72"
-           ath="10.060753" atv="2.740560"
+           ath="10.060923" atv="2.740499"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -1652,7 +1652,7 @@
 
 
   <hotspot name="spotpoint75"
-           ath="-129.440559" atv="-2.631579"
+           ath="-129.440521" atv="-2.631601"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -1776,7 +1776,7 @@
 
 
   <hotspot name="spotpoint92"
-           ath="99.867110" atv="9.778271"
+           ath="99.867246" atv="9.778315"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -1801,7 +1801,7 @@
 
 
   <hotspot name="spotpoint115"
-           ath="-87.231920" atv="5.840266"
+           ath="-87.231960" atv="5.840285"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -1826,7 +1826,7 @@
 
 
   <hotspot name="spotpoint116"
-           ath="-73.079652" atv="5.650485"
+           ath="-73.079638" atv="5.650556"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -1851,7 +1851,7 @@
 
 
   <hotspot name="spotpoint117"
-           ath="-79.000322" atv="5.883495"
+           ath="-79.000196" atv="5.883479"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -1876,7 +1876,7 @@
 
 
   <hotspot name="spotpoint118"
-           ath="141.230769" atv="10.903491"
+           ath="141.230879" atv="10.903502"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -2034,7 +2034,7 @@
 
 
   <hotspot name="spotpoint112"
-           ath="-107.261538" atv="9.055441"
+           ath="-107.261640" atv="9.055438"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -2097,8 +2097,8 @@
        full360="true"
        video="false"
        seen="false">
-    <autorotate horizon="4.894215" tofov="74.380165" waittime="1" speed="5"/>
-    <panoview h="-9.780992" v="4.894215" fov="74.380165" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
+    <autorotate horizon="4.894210" tofov="74.380200" waittime="1" speed="5"/>
+    <panoview h="-9.780990" v="4.894210" fov="74.380200" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
     <view fisheye="0"
           limitview="range"
           hlookatmin="-180"
@@ -2108,9 +2108,9 @@
           maxpixelzoom="1.0"
           fovtype="VFOV"
           fovmax="90"
-          fov="74.380165"
-          hlookat="-9.780992"
-          vlookat="4.894215"/>
+          fov="74.380200"
+          hlookat="-9.780990"
+          vlookat="4.894210"/>
     <preview url="%FIRSTXML%/quarto_filha_35/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
       <level tiledimagewidth="2560" tiledimageheight="2560">
@@ -2156,7 +2156,7 @@
 
 
   <hotspot name="spotpoint111"
-           ath="63.692308" atv="20.513347"
+           ath="63.692272" atv="20.513341"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -2219,8 +2219,8 @@
        full360="true"
        video="false"
        seen="false">
-    <autorotate horizon="5.437190" tofov="74.380165" waittime="1" speed="5"/>
-    <panoview h="41.686364" v="5.437190" fov="74.380165" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
+    <autorotate horizon="4.389285" tofov="78.123613" waittime="1" speed="5"/>
+    <panoview h="14.368834" v="4.389285" fov="78.123613" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
     <view fisheye="0"
           limitview="range"
           hlookatmin="-180"
@@ -2230,9 +2230,9 @@
           maxpixelzoom="1.0"
           fovtype="VFOV"
           fovmax="90"
-          fov="74.380165"
-          hlookat="41.686364"
-          vlookat="5.437190"/>
+          fov="78.123613"
+          hlookat="14.368834"
+          vlookat="4.389285"/>
     <preview url="%FIRSTXML%/varanda_40/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
       <level tiledimagewidth="2560" tiledimageheight="2560">
@@ -2350,7 +2350,7 @@
 
 
   <hotspot name="spotpoint113"
-           ath="-113.907692" atv="24.209446"
+           ath="-113.907602" atv="24.209458"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -2413,8 +2413,8 @@
        full360="true"
        video="false"
        seen="false">
-    <autorotate horizon="4.421901" tofov="74.380165" waittime="1" speed="5"/>
-    <panoview h="-31.990909" v="4.421901" fov="74.380165" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
+    <autorotate horizon="4.421900" tofov="74.380200" waittime="1" speed="5"/>
+    <panoview h="-31.990900" v="4.421900" fov="74.380200" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
     <view fisheye="0"
           limitview="range"
           hlookatmin="-180"
@@ -2424,9 +2424,9 @@
           maxpixelzoom="1.0"
           fovtype="VFOV"
           fovmax="90"
-          fov="74.380165"
-          hlookat="-31.990909"
-          vlookat="4.421901"/>
+          fov="74.380200"
+          hlookat="-31.990900"
+          vlookat="4.421900"/>
     <preview url="%FIRSTXML%/quarto_gemeos_36/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
       <level tiledimagewidth="2560" tiledimageheight="2560">
@@ -2472,7 +2472,7 @@
 
 
   <hotspot name="spotpoint114"
-           ath="3.507692" atv="13.860370"
+           ath="3.507836" atv="13.860358"
            style="Iconponto"
            tag="point"
            distorted="true"
