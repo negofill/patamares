@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.21.2">
+
+    
+
+
+  <style name="Iconponto"
+         url="%FIRSTXML%/spots/arrow_user_defaultpoint01.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIconponto"
+         onout="onoutIconponto"
+
+
+         width="32"
+         height="prop"
+         />
+  <action name="onhoverIconponto">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconponto">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<garrows_settings
+	show_floatingarrow_d="true"
+	show_chevrons_d="true"
+	show_navpoints_d="true"
+	show_contextmenu_d="true"
+	show_originalhotspots_d="false"
+
+	show_floatingarrow_m="true"
+	show_chevrons_m="false"
+	show_navpoints_m="false"
+	show_contextmenu_m="true"
+	show_originalhotspots_m="false"
+
+	show_floatingarrow_vr="true"
+	show_chevrons_vr="false"
+	show_navpoints_vr="false"
+	show_contextmenu_vr="true"
+	show_originalhotspots_vr="false"
+
+	floatingarrow_position_d="mouse"
+	floatingarrow_position_m="fixed"
+	floatingarrow_position_vr="fixed"
+	
+	floatingarrow_atv="25"
+	floatingarrow_alpha="0.5"
+
+	navhotspots_style="ponto"
+	navhotspots_style_vertical="IconDefaultPointSpotStyle1"
+
+	startup_delay="0"
+	show_tooltips="true"
+	ignore_showhidehotspots="false"
+	hotkey_f="true"
+	chevrons_capture="true"
+	chevrons_color="0xffffff"
+	chevrons_coloronhover="0xd7d7d7"
+	chevrons_borderwidth="1"
+	chevrons_zorder="50"
+	chevrons_bordercolor="0xffffff"
+	chevrons_bordercoloronhover="0xd7d7d7"
+	chevrons_style_m="chevronshape"
+	chevrons_style_d="chevronshape"
+	chevrons_alpha="1"
+	chevronsborder_alpha="1"
+	floatingarrow_zorder="50"
+
+	keep_view="true"
+	keep_view_replace_what="MERGE"
+	keep_view_replace_with="KEEPVIEW"
+
+	chevrons_position="25"
+	chevrons_scatter="0"
+	chevrons_distance="180"
+	floatingarrow_flyaway="true"
+	floatingarrow_autohide="true"
+	floatingarrow_sens="20"
+	floatingarrow_updatedelay="1"
+	floatingarrow_scale_d="10"
+	floatingarrow_scale_m="10"
+	navpoints_putonground="true"
+	navpoints_atv="25"
+	keyboard_control="false"
+
+	plugin_directory="%FIRSTXML%/graphics/garrows"
+	scenes_wobbling="false"
+	scenes_wobbling_size="5"
+	scenes_wobbling_time="500"
+	scenes_wobbling_updatedelay="100"
+	scenes_wobbling_stopondrag="false"
+	chevrons_shadow_color="0x000000"
+	chevrons_shadow_bordercolor="0x000000"
+	chevrons_shadow_alpha="0.5"
+	navpoints_alpha="0.2"
+	navpoints_onhover_alpha="0.6"
+	chevrons_shadow_borderwidth="1"
+	chevrons_shadow_border_alpha="0.5"
+	floating_arrow_text="Show/Hide floating arrow"
+	chevron_arrows_text="Show/Hide chevron arrows"
+	navigation_hotspots_text="Show/Hide navigation hotspots"
+	floating_arrow_autohide_text="Auto hide floating arrow"
+	hide_on_autorotate="true"
+	chevrons_updatedelay_desktop="1"
+	chevrons_updatedelay_mobile="0"
+	logkey_enable="false"
+	disabled_panoids=""
+	password_protect="false"
+	password="garrows"
+/>
+<include url="%FIRSTXML%/graphics/garrows/garrows.xml" />
+
+
+
+  <action name="enableGyroscope">
+    changeGyroscopeState(true);
+  </action>
+  <action name="disableGyroscope">
+    changeGyroscopeState(false);
+  </action>
+
+
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
+  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
+  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
+  
+  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
+
+  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
+  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
+
+
+</krpano>
