@@ -73,7 +73,7 @@
 
   <panoramagroup name="panogroup47"
                  mainscene="pano26"
-                 color="c8c8c8"
+                 color="3c3c3c"
                  alpha="0.46274509803921571"
                  thumburl="%FIRSTXML%/acesso_26/thumbnail.jpg"
                  floorplanurl="%FIRSTXML%/floorplan/stanza_-_jardim_patamares_-_implantacao_panogroup47.jpg"
@@ -1776,7 +1776,7 @@
 
 
   <hotspot name="spotpoint92"
-           ath="99.867246" atv="9.778315"
+           ath="77.967914" atv="7.901499"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -1896,6 +1896,31 @@
 
 
 
+
+
+
+
+  <hotspot name="spotpoint2487"
+           ath="0.192513" atv="8.672377"
+           style="Iconponto"
+           tag="point"
+           distorted="true"
+           depth="1000"
+           descriptionid=""
+           linktarget="pano40"
+           onclick="onclickspotpoint2487"
+           />
+  <hotspot name="spotpoint2487" devices="flash" zorder="3"/>
+  <hotspot name="spotpoint2487" devices="html5" zorder="3" zorder2="1"/>
+  <action name="onclickspotpoint2487">
+  
+        mainloadscene(pano40);
+
+
+  </action>
+
+
+
   <action name="hidepanopointspots">
 
 
@@ -1917,6 +1942,10 @@
 
 
     set(hotspot[spotpoint118].visible, false);
+
+
+
+    set(hotspot[spotpoint2487].visible, false);
   </action>
   <action name="showpanopointspots">
 
@@ -1944,6 +1973,11 @@
 
   
   set(hotspot[spotpoint118].visible, true);
+
+
+
+  
+  set(hotspot[spotpoint2487].visible, true);
   </action>
   <events name="pano37stopanimatedspots" onremovepano="" />
 
@@ -2219,8 +2253,8 @@
        full360="true"
        video="false"
        seen="false">
-    <autorotate horizon="4.389285" tofov="78.123613" waittime="1" speed="5"/>
-    <panoview h="14.368834" v="4.389285" fov="78.123613" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
+    <autorotate horizon="4.389280" tofov="78.123600" waittime="1" speed="5"/>
+    <panoview h="14.368800" v="4.389280" fov="78.123600" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
     <view fisheye="0"
           limitview="range"
           hlookatmin="-180"
@@ -2230,9 +2264,9 @@
           maxpixelzoom="1.0"
           fovtype="VFOV"
           fovmax="90"
-          fov="78.123613"
-          hlookat="14.368834"
-          vlookat="4.389285"/>
+          fov="78.123600"
+          hlookat="14.368800"
+          vlookat="4.389280"/>
     <preview url="%FIRSTXML%/varanda_40/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
       <level tiledimagewidth="2560" tiledimageheight="2560">
@@ -2271,6 +2305,56 @@
 
 
 
+
+
+
+
+
+
+  <hotspot name="spotpoint2488"
+           ath="135.323077" atv="27.166324"
+           style="Iconponto"
+           tag="point"
+           distorted="true"
+           depth="1000"
+           descriptionid=""
+           linktarget="pano37"
+           onclick="onclickspotpoint2488"
+           />
+  <hotspot name="spotpoint2488" devices="flash" zorder="3"/>
+  <hotspot name="spotpoint2488" devices="html5" zorder="3" zorder2="1"/>
+  <action name="onclickspotpoint2488">
+  
+        mainloadscene(pano37);
+
+
+  </action>
+
+
+
+  <action name="hidepanopointspots">
+
+
+
+    set(hotspot[spotpoint2488].visible, false);
+  </action>
+  <action name="showpanopointspots">
+
+
+
+  
+  set(hotspot[spotpoint2488].visible, true);
+  </action>
+  <events name="pano40stopanimatedspots" onremovepano="" />
+
+  <action name="showpanospotsaction">
+    if (tour_displayspots,
+    showpanopointspots();
+    );
+  </action>
+  <action name="hidepanospotsaction">
+    hidepanopointspots();
+  </action>
 
 
 </scene>

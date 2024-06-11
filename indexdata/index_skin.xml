@@ -12,7 +12,7 @@
          onout="onoutIconponto"
 
 
-         width="32"
+         width="48"
          height="prop"
          />
   <action name="onhoverIconponto">
@@ -91,8 +91,8 @@
 getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 "
 
-         height="48"
-         width="48"
+         height="64"
+         width="64"
 
          />
 
@@ -609,7 +609,7 @@ getmessage(urltoopen,titleonclick121893openurlwebsiteurl);openurl(get(urltoopen)
               color:#ffffff;
               font-family:Arial;
               font-weight:bold;
-              font-size:14px;"/>
+              font-size:18px;"/>
 
 
   <layer name="button1"
@@ -621,8 +621,8 @@ getmessage(urltoopen,titleonclick121893openurlwebsiteurl);openurl(get(urltoopen)
          zorder="7"
          visible="false"
          onclick="button1OnClick"
-         height="48"
-         width="48"
+         height="64"
+         width="64"
          />
 
 
@@ -647,12 +647,12 @@ getmessage(urltoopen,titleonclick121893openurlwebsiteurl);openurl(get(urltoopen)
          url="%FIRSTXML%/graphics/button2/flr.png"
          align="topright"
          x="-5"
-         y="160"
+         y="180"
          zorder="8"
          visible="false"
          onclick="button2OnClick"
-         height="48"
-         width="48"
+         height="64"
+         width="64"
          />
 
 
@@ -1349,7 +1349,7 @@ floorPlanActivateDefaultSpot();););
 		<option name="item_out_font_size" value="14" type="int" />
 		<option name="item_out_font_weight" value="bold" type="string" />
 		<option name="item_out_font_style" value="normal" type="string" />
-		<option name="item_out_font_decoration" value="normal" type="string" />
+		<option name="item_out_font_decoration" value="underline" type="string" />
 		<option name="use_hover_effect" value="true" type="bool" />
 		<option name="item_hover_bg_color" value="006462" type="string" />
 		<option name="item_hover_bg_alpha" value="0" type="float" />
@@ -1358,7 +1358,7 @@ floorPlanActivateDefaultSpot();););
 		<option name="item_hover_font_size" value="14" type="int" />
 		<option name="item_hover_font_weight" value="bold" type="string" />
 		<option name="item_hover_font_style" value="normal" type="string" />
-		<option name="item_hover_font_decoration" value="normal" type="string" />
+		<option name="item_hover_font_decoration" value="underline" type="string" />
 		<option name="padding_main" value="10" type="int" />
 		<option name="padding_sub" value="10" type="int" />
 		<option name="text_align" value="right" type="string" />
@@ -1383,9 +1383,9 @@ floorPlanActivateDefaultSpot();););
 								thumbnail="indexdata/acesso_26/thumbnail.jpg"
 							cssClass="pano26">
 						
-								<option name="item_out_bg_color" value="c8c8c8" type="string" />
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
 								<option name="item_out_bg_alpha" value="0.46274509803921571" type="float" />
-								<option name="item_hover_bg_color" value="a7a7a7" type="string" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
 								<option name="item_hover_bg_alpha" value="0.46274509803921571" type="float" />
 						
 						</item>
@@ -1395,9 +1395,9 @@ floorPlanActivateDefaultSpot();););
 								thumbnail="indexdata/fachada_30/thumbnail.jpg"
 							cssClass="pano30">
 						
-								<option name="item_out_bg_color" value="c8c8c8" type="string" />
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
 								<option name="item_out_bg_alpha" value="0.46274509803921571" type="float" />
-								<option name="item_hover_bg_color" value="a7a7a7" type="string" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
 								<option name="item_hover_bg_alpha" value="0.46274509803921571" type="float" />
 						
 						</item>
@@ -1407,9 +1407,9 @@ floorPlanActivateDefaultSpot();););
 								thumbnail="indexdata/piscina1_33/thumbnail.jpg"
 							cssClass="pano33">
 						
-								<option name="item_out_bg_color" value="c8c8c8" type="string" />
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
 								<option name="item_out_bg_alpha" value="0.46274509803921571" type="float" />
-								<option name="item_hover_bg_color" value="a7a7a7" type="string" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
 								<option name="item_hover_bg_alpha" value="0.46274509803921571" type="float" />
 						
 						</item>
@@ -1419,9 +1419,9 @@ floorPlanActivateDefaultSpot();););
 								thumbnail="indexdata/churrasqueira_28/thumbnail.jpg"
 							cssClass="pano28">
 						
-								<option name="item_out_bg_color" value="c8c8c8" type="string" />
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
 								<option name="item_out_bg_alpha" value="0.46274509803921571" type="float" />
-								<option name="item_hover_bg_color" value="a7a7a7" type="string" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
 								<option name="item_hover_bg_alpha" value="0.46274509803921571" type="float" />
 						
 						</item>
@@ -1431,9 +1431,9 @@ floorPlanActivateDefaultSpot();););
 								thumbnail="indexdata/parquinho_31/thumbnail.jpg"
 							cssClass="pano31">
 						
-								<option name="item_out_bg_color" value="c8c8c8" type="string" />
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
 								<option name="item_out_bg_alpha" value="0.46274509803921571" type="float" />
-								<option name="item_hover_bg_color" value="a7a7a7" type="string" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
 								<option name="item_hover_bg_alpha" value="0.46274509803921571" type="float" />
 						
 						</item>
@@ -1443,9 +1443,9 @@ floorPlanActivateDefaultSpot();););
 								thumbnail="indexdata/academia_externa_24/thumbnail.jpg"
 							cssClass="pano24">
 						
-								<option name="item_out_bg_color" value="c8c8c8" type="string" />
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
 								<option name="item_out_bg_alpha" value="0.46274509803921571" type="float" />
-								<option name="item_hover_bg_color" value="a7a7a7" type="string" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
 								<option name="item_hover_bg_alpha" value="0.46274509803921571" type="float" />
 						
 						</item>
@@ -1455,9 +1455,9 @@ floorPlanActivateDefaultSpot();););
 								thumbnail="indexdata/quadra_34/thumbnail.jpg"
 							cssClass="pano34">
 						
-								<option name="item_out_bg_color" value="c8c8c8" type="string" />
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
 								<option name="item_out_bg_alpha" value="0.46274509803921571" type="float" />
-								<option name="item_hover_bg_color" value="a7a7a7" type="string" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
 								<option name="item_hover_bg_alpha" value="0.46274509803921571" type="float" />
 						
 						</item>
@@ -1467,9 +1467,9 @@ floorPlanActivateDefaultSpot();););
 								thumbnail="indexdata/petpark_32/thumbnail.jpg"
 							cssClass="pano32">
 						
-								<option name="item_out_bg_color" value="c8c8c8" type="string" />
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
 								<option name="item_out_bg_alpha" value="0.46274509803921571" type="float" />
-								<option name="item_hover_bg_color" value="a7a7a7" type="string" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
 								<option name="item_hover_bg_alpha" value="0.46274509803921571" type="float" />
 						
 						</item>
@@ -1479,9 +1479,9 @@ floorPlanActivateDefaultSpot();););
 								thumbnail="indexdata/salao_de_festas_38/thumbnail.jpg"
 							cssClass="pano38">
 						
-								<option name="item_out_bg_color" value="c8c8c8" type="string" />
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
 								<option name="item_out_bg_alpha" value="0.46274509803921571" type="float" />
-								<option name="item_hover_bg_color" value="a7a7a7" type="string" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
 								<option name="item_hover_bg_alpha" value="0.46274509803921571" type="float" />
 						
 						</item>
@@ -1491,9 +1491,9 @@ floorPlanActivateDefaultSpot();););
 								thumbnail="indexdata/academia_25/thumbnail.jpg"
 							cssClass="pano25">
 						
-								<option name="item_out_bg_color" value="c8c8c8" type="string" />
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
 								<option name="item_out_bg_alpha" value="0.46274509803921571" type="float" />
-								<option name="item_hover_bg_color" value="a7a7a7" type="string" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
 								<option name="item_hover_bg_alpha" value="0.46274509803921571" type="float" />
 						
 						</item>
@@ -1503,14 +1503,14 @@ floorPlanActivateDefaultSpot();););
 								thumbnail="indexdata/bicicletario_27/thumbnail.jpg"
 							cssClass="pano27">
 						
-								<option name="item_out_bg_color" value="c8c8c8" type="string" />
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
 								<option name="item_out_bg_alpha" value="0.46274509803921571" type="float" />
-								<option name="item_hover_bg_color" value="a7a7a7" type="string" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
 								<option name="item_hover_bg_alpha" value="0.46274509803921571" type="float" />
 						
 						</item>
 					
-						<option name="background_color" value="c8c8c8" type="string" />
+						<option name="background_color" value="3c3c3c" type="string" />
 						<option name="background_alpha" value="0.46274509803921571" type="float" />
 					
 				</group>
@@ -1657,7 +1657,7 @@ floorPlanActivateDefaultSpot();););
 
   <layer align="topleft"
          x="0"
-         y="-15"
+         y="-25"
          zorder="15"
          name="logo3"
          keep="true"
@@ -1669,7 +1669,7 @@ floorPlanActivateDefaultSpot();););
 getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
 "
 
-         width="96"
+         width="130"
          height="prop"
 
          />
@@ -1919,6 +1919,45 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
 
 
 
+
+  <style name="prevnexttheme8ArrowStyle" keep="true" x="10" alpha="0.5"
+               crop="0| 0|38|38"
+         onovercrop="0|38|38|38"
+         ondowncrop="0|76|38|38"
+         onover="set(alpha, 1);"
+         onout="set(alpha, 0.5);"
+         />
+  <layer name="prevnexttheme8prevPanoramaArrow" style="prevnexttheme8ArrowStyle"
+         url="%FIRSTXML%/graphics/prevnextdots/btn_scroll_left.png" align="left" 
+         onover="set(alpha, 1);"
+         onout="set(alpha, 0.5);"
+         onclick="loadPreviousScene();
+"
+         visible="false"
+         zorder="19" />
+
+  <layer name="prevnexttheme8nextPanoramaArrow" style="prevnexttheme8ArrowStyle"
+         url="%FIRSTXML%/graphics/prevnextdots/btn_scroll_right.png" align="right"
+         onover="set(alpha, 1);"
+         onout="set(alpha, 0.5);"
+         onclick="loadNextScene();
+"
+         visible="false"
+         zorder="19" />
+
+  <events name="prevnexttheme8hideshowcontrolsevent" 
+    onTourStart="prevnexttheme8showPrevNextControls();"
+    keep="true"/>
+  <action name="prevnexttheme8hidePrevNextControls">
+    set(layer[prevnexttheme8prevPanoramaArrow].visible, false);
+    set(layer[prevnexttheme8nextPanoramaArrow].visible, false);
+  </action>
+  <action name="prevnexttheme8showPrevNextControls">
+    set(layer[prevnexttheme8prevPanoramaArrow].visible, true);
+    set(layer[prevnexttheme8nextPanoramaArrow].visible, true);
+  </action>
+
+
   <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
   <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
   <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
@@ -1934,18 +1973,6 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
   <action name="enterFullScreenFallback">set(fullscreen,true);</action>
   
   <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
-
-  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
-  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
-
-
-  <action name="enableGyroscope">
-    changeGyroscopeState(true);
-  </action>
-  <action name="disableGyroscope">
-    changeGyroscopeState(false);
-  </action>
-
 
 
 	<plugin name="ptpvrmode" devices="html5" keep="true"
@@ -1973,4 +2000,16 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
 		set(tour_vrdevices, false);
 		events.dispatch(onvrunavailable);
 	</action>
+  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
+  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
+
+
+  <action name="enableGyroscope">
+    changeGyroscopeState(true);
+  </action>
+  <action name="disableGyroscope">
+    changeGyroscopeState(false);
+  </action>
+
+
 </krpano>
