@@ -1725,7 +1725,7 @@
 
 
   <hotspot name="spotpoint92"
-           ath="77.967914" atv="7.901499"
+           ath="77.968082" atv="7.901455"
            style="Iconponto"
            tag="point"
            descriptionid=""
@@ -1830,7 +1830,7 @@
 
 
   <hotspot name="spotpoint2487"
-           ath="0.192513" atv="8.672377"
+           ath="0.192604" atv="8.672397"
            style="Iconponto"
            tag="point"
            descriptionid=""
@@ -2014,6 +2014,121 @@
 
 
 
+<scene name="pano40"
+       heading="0"
+       group="panogroup46"
+       thumburl="%FIRSTXML%/varanda_40/thumbnail.jpg"
+       backgroundsound=""
+       backgroundsoundloops="true"
+       haspolygons="false"
+       titleid="pano40_title"
+       descriptionid=""
+       multires="true"
+       planar="false"
+       full360="true"
+       video="false"
+       seen="false">
+    <autorotate horizon="4.389280" tofov="78.123600" waittime="1" speed="5"/>
+    <panoview h="14.368800" v="4.389280" fov="78.123600" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
+    <view fisheye="0"
+          limitview="range"
+          hlookatmin="-180"
+          hlookatmax="180"
+          vlookatmin="-90"
+          vlookatmax="90"
+          maxpixelzoom="1.0"
+          fovtype="VFOV"
+          fovmax="90"
+          fov="78.123600"
+          hlookat="14.368800"
+          vlookat="4.389280"/>
+    <preview url="%FIRSTXML%/varanda_40/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
+    <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="2560" tiledimageheight="2560">
+          <front url="varanda_40/0/2/%v_%u.jpg"/>
+          <right url="varanda_40/1/2/%v_%u.jpg"/>
+          <back  url="varanda_40/2/2/%v_%u.jpg"/>
+          <left  url="varanda_40/3/2/%v_%u.jpg"/>
+          <up    url="varanda_40/4/2/%v_%u.jpg"/>
+          <down  url="varanda_40/5/2/%v_%u.jpg"/>
+      </level>
+      <level tiledimagewidth="1536" tiledimageheight="1536">
+          <front url="varanda_40/0/1/%v_%u.jpg"/>
+          <right url="varanda_40/1/1/%v_%u.jpg"/>
+          <back  url="varanda_40/2/1/%v_%u.jpg"/>
+          <left  url="varanda_40/3/1/%v_%u.jpg"/>
+          <up    url="varanda_40/4/1/%v_%u.jpg"/>
+          <down  url="varanda_40/5/1/%v_%u.jpg"/>
+      </level>
+      <level tiledimagewidth="1024" tiledimageheight="1024">
+          <front url="varanda_40/0/0/%v_%u.jpg"/>
+          <right url="varanda_40/1/0/%v_%u.jpg"/>
+          <back  url="varanda_40/2/0/%v_%u.jpg"/>
+          <left  url="varanda_40/3/0/%v_%u.jpg"/>
+          <up    url="varanda_40/4/0/%v_%u.jpg"/>
+          <down  url="varanda_40/5/0/%v_%u.jpg"/>
+      </level>
+    </image>
+    <image type="CUBE" devices="androidstock.and.no-webgl">
+      <front url="varanda_40/mobile/0.jpg"/>
+      <right url="varanda_40/mobile/1.jpg"/>
+      <back  url="varanda_40/mobile/2.jpg"/>
+      <left  url="varanda_40/mobile/3.jpg"/>
+      <up    url="varanda_40/mobile/4.jpg"/>
+      <down  url="varanda_40/mobile/5.jpg"/>
+    </image>
+
+
+
+
+
+
+
+  <hotspot name="spotpoint2488"
+           ath="135.322917" atv="27.166325"
+           style="Iconponto"
+           tag="point"
+           descriptionid=""
+           linktarget="pano37"
+           onclick="onclickspotpoint2488"
+           />
+  <hotspot name="spotpoint2488" devices="flash" zorder="3"/>
+  <hotspot name="spotpoint2488" devices="html5" zorder="3" zorder2="1"/>
+  <action name="onclickspotpoint2488">
+  
+        mainloadscene(pano37);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+
+
+  <action name="hidepanopointspots">
+
+    set(hotspot[spotpoint2488].visible, false);
+  </action>
+  <action name="showpanopointspots">
+
+  
+  set(hotspot[spotpoint2488].visible, true);
+  </action>
+  <events name="pano40stopanimatedspots" onremovepano="" />
+
+  <action name="showpanospotsaction">
+    if (tour_displayspots,
+    showpanopointspots();
+    );
+  </action>
+  <action name="hidepanospotsaction">
+    hidepanopointspots();
+  </action>
+
+
+
+</scene>
+
+
+
 <scene name="pano35"
        heading="0"
        group="panogroup46"
@@ -2129,22 +2244,22 @@
 
 
 
-<scene name="pano40"
+<scene name="pano36"
        heading="0"
        group="panogroup46"
-       thumburl="%FIRSTXML%/varanda_40/thumbnail.jpg"
+       thumburl="%FIRSTXML%/quarto_gemeos_36/thumbnail.jpg"
        backgroundsound=""
        backgroundsoundloops="true"
        haspolygons="false"
-       titleid="pano40_title"
+       titleid="pano36_title"
        descriptionid=""
        multires="true"
        planar="false"
        full360="true"
        video="false"
        seen="false">
-    <autorotate horizon="4.389280" tofov="78.123600" waittime="1" speed="5"/>
-    <panoview h="14.368800" v="4.389280" fov="78.123600" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
+    <autorotate horizon="4.421900" tofov="74.380200" waittime="1" speed="5"/>
+    <panoview h="-31.990900" v="4.421900" fov="74.380200" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
     <view fisheye="0"
           limitview="range"
           hlookatmin="-180"
@@ -2154,43 +2269,43 @@
           maxpixelzoom="1.0"
           fovtype="VFOV"
           fovmax="90"
-          fov="78.123600"
-          hlookat="14.368800"
-          vlookat="4.389280"/>
-    <preview url="%FIRSTXML%/varanda_40/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
+          fov="74.380200"
+          hlookat="-31.990900"
+          vlookat="4.421900"/>
+    <preview url="%FIRSTXML%/quarto_gemeos_36/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
     <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
       <level tiledimagewidth="2560" tiledimageheight="2560">
-          <front url="varanda_40/0/2/%v_%u.jpg"/>
-          <right url="varanda_40/1/2/%v_%u.jpg"/>
-          <back  url="varanda_40/2/2/%v_%u.jpg"/>
-          <left  url="varanda_40/3/2/%v_%u.jpg"/>
-          <up    url="varanda_40/4/2/%v_%u.jpg"/>
-          <down  url="varanda_40/5/2/%v_%u.jpg"/>
+          <front url="quarto_gemeos_36/0/2/%v_%u.jpg"/>
+          <right url="quarto_gemeos_36/1/2/%v_%u.jpg"/>
+          <back  url="quarto_gemeos_36/2/2/%v_%u.jpg"/>
+          <left  url="quarto_gemeos_36/3/2/%v_%u.jpg"/>
+          <up    url="quarto_gemeos_36/4/2/%v_%u.jpg"/>
+          <down  url="quarto_gemeos_36/5/2/%v_%u.jpg"/>
       </level>
       <level tiledimagewidth="1536" tiledimageheight="1536">
-          <front url="varanda_40/0/1/%v_%u.jpg"/>
-          <right url="varanda_40/1/1/%v_%u.jpg"/>
-          <back  url="varanda_40/2/1/%v_%u.jpg"/>
-          <left  url="varanda_40/3/1/%v_%u.jpg"/>
-          <up    url="varanda_40/4/1/%v_%u.jpg"/>
-          <down  url="varanda_40/5/1/%v_%u.jpg"/>
+          <front url="quarto_gemeos_36/0/1/%v_%u.jpg"/>
+          <right url="quarto_gemeos_36/1/1/%v_%u.jpg"/>
+          <back  url="quarto_gemeos_36/2/1/%v_%u.jpg"/>
+          <left  url="quarto_gemeos_36/3/1/%v_%u.jpg"/>
+          <up    url="quarto_gemeos_36/4/1/%v_%u.jpg"/>
+          <down  url="quarto_gemeos_36/5/1/%v_%u.jpg"/>
       </level>
       <level tiledimagewidth="1024" tiledimageheight="1024">
-          <front url="varanda_40/0/0/%v_%u.jpg"/>
-          <right url="varanda_40/1/0/%v_%u.jpg"/>
-          <back  url="varanda_40/2/0/%v_%u.jpg"/>
-          <left  url="varanda_40/3/0/%v_%u.jpg"/>
-          <up    url="varanda_40/4/0/%v_%u.jpg"/>
-          <down  url="varanda_40/5/0/%v_%u.jpg"/>
+          <front url="quarto_gemeos_36/0/0/%v_%u.jpg"/>
+          <right url="quarto_gemeos_36/1/0/%v_%u.jpg"/>
+          <back  url="quarto_gemeos_36/2/0/%v_%u.jpg"/>
+          <left  url="quarto_gemeos_36/3/0/%v_%u.jpg"/>
+          <up    url="quarto_gemeos_36/4/0/%v_%u.jpg"/>
+          <down  url="quarto_gemeos_36/5/0/%v_%u.jpg"/>
       </level>
     </image>
     <image type="CUBE" devices="androidstock.and.no-webgl">
-      <front url="varanda_40/mobile/0.jpg"/>
-      <right url="varanda_40/mobile/1.jpg"/>
-      <back  url="varanda_40/mobile/2.jpg"/>
-      <left  url="varanda_40/mobile/3.jpg"/>
-      <up    url="varanda_40/mobile/4.jpg"/>
-      <down  url="varanda_40/mobile/5.jpg"/>
+      <front url="quarto_gemeos_36/mobile/0.jpg"/>
+      <right url="quarto_gemeos_36/mobile/1.jpg"/>
+      <back  url="quarto_gemeos_36/mobile/2.jpg"/>
+      <left  url="quarto_gemeos_36/mobile/3.jpg"/>
+      <up    url="quarto_gemeos_36/mobile/4.jpg"/>
+      <down  url="quarto_gemeos_36/mobile/5.jpg"/>
     </image>
 
 
@@ -2199,17 +2314,17 @@
 
 
 
-  <hotspot name="spotpoint2488"
-           ath="135.323077" atv="27.166324"
+  <hotspot name="spotpoint114"
+           ath="3.507836" atv="13.860358"
            style="Iconponto"
            tag="point"
            descriptionid=""
            linktarget="pano37"
-           onclick="onclickspotpoint2488"
+           onclick="onclickspotpoint114"
            />
-  <hotspot name="spotpoint2488" devices="flash" zorder="3"/>
-  <hotspot name="spotpoint2488" devices="html5" zorder="3" zorder2="1"/>
-  <action name="onclickspotpoint2488">
+  <hotspot name="spotpoint114" devices="flash" zorder="3"/>
+  <hotspot name="spotpoint114" devices="html5" zorder="3" zorder2="1"/>
+  <action name="onclickspotpoint114">
   
         mainloadscene(pano37);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
 
@@ -2220,14 +2335,14 @@
 
   <action name="hidepanopointspots">
 
-    set(hotspot[spotpoint2488].visible, false);
+    set(hotspot[spotpoint114].visible, false);
   </action>
   <action name="showpanopointspots">
 
   
-  set(hotspot[spotpoint2488].visible, true);
+  set(hotspot[spotpoint114].visible, true);
   </action>
-  <events name="pano40stopanimatedspots" onremovepano="" />
+  <events name="pano36stopanimatedspots" onremovepano="" />
 
   <action name="showpanospotsaction">
     if (tour_displayspots,
@@ -2343,121 +2458,6 @@
   set(hotspot[spotpoint113].visible, true);
   </action>
   <events name="pano39stopanimatedspots" onremovepano="" />
-
-  <action name="showpanospotsaction">
-    if (tour_displayspots,
-    showpanopointspots();
-    );
-  </action>
-  <action name="hidepanospotsaction">
-    hidepanopointspots();
-  </action>
-
-
-
-</scene>
-
-
-
-<scene name="pano36"
-       heading="0"
-       group="panogroup46"
-       thumburl="%FIRSTXML%/quarto_gemeos_36/thumbnail.jpg"
-       backgroundsound=""
-       backgroundsoundloops="true"
-       haspolygons="false"
-       titleid="pano36_title"
-       descriptionid=""
-       multires="true"
-       planar="false"
-       full360="true"
-       video="false"
-       seen="false">
-    <autorotate horizon="4.421900" tofov="74.380200" waittime="1" speed="5"/>
-    <panoview h="-31.990900" v="4.421900" fov="74.380200" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
-    <view fisheye="0"
-          limitview="range"
-          hlookatmin="-180"
-          hlookatmax="180"
-          vlookatmin="-90"
-          vlookatmax="90"
-          maxpixelzoom="1.0"
-          fovtype="VFOV"
-          fovmax="90"
-          fov="74.380200"
-          hlookat="-31.990900"
-          vlookat="4.421900"/>
-    <preview url="%FIRSTXML%/quarto_gemeos_36/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
-    <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
-      <level tiledimagewidth="2560" tiledimageheight="2560">
-          <front url="quarto_gemeos_36/0/2/%v_%u.jpg"/>
-          <right url="quarto_gemeos_36/1/2/%v_%u.jpg"/>
-          <back  url="quarto_gemeos_36/2/2/%v_%u.jpg"/>
-          <left  url="quarto_gemeos_36/3/2/%v_%u.jpg"/>
-          <up    url="quarto_gemeos_36/4/2/%v_%u.jpg"/>
-          <down  url="quarto_gemeos_36/5/2/%v_%u.jpg"/>
-      </level>
-      <level tiledimagewidth="1536" tiledimageheight="1536">
-          <front url="quarto_gemeos_36/0/1/%v_%u.jpg"/>
-          <right url="quarto_gemeos_36/1/1/%v_%u.jpg"/>
-          <back  url="quarto_gemeos_36/2/1/%v_%u.jpg"/>
-          <left  url="quarto_gemeos_36/3/1/%v_%u.jpg"/>
-          <up    url="quarto_gemeos_36/4/1/%v_%u.jpg"/>
-          <down  url="quarto_gemeos_36/5/1/%v_%u.jpg"/>
-      </level>
-      <level tiledimagewidth="1024" tiledimageheight="1024">
-          <front url="quarto_gemeos_36/0/0/%v_%u.jpg"/>
-          <right url="quarto_gemeos_36/1/0/%v_%u.jpg"/>
-          <back  url="quarto_gemeos_36/2/0/%v_%u.jpg"/>
-          <left  url="quarto_gemeos_36/3/0/%v_%u.jpg"/>
-          <up    url="quarto_gemeos_36/4/0/%v_%u.jpg"/>
-          <down  url="quarto_gemeos_36/5/0/%v_%u.jpg"/>
-      </level>
-    </image>
-    <image type="CUBE" devices="androidstock.and.no-webgl">
-      <front url="quarto_gemeos_36/mobile/0.jpg"/>
-      <right url="quarto_gemeos_36/mobile/1.jpg"/>
-      <back  url="quarto_gemeos_36/mobile/2.jpg"/>
-      <left  url="quarto_gemeos_36/mobile/3.jpg"/>
-      <up    url="quarto_gemeos_36/mobile/4.jpg"/>
-      <down  url="quarto_gemeos_36/mobile/5.jpg"/>
-    </image>
-
-
-
-
-
-
-
-  <hotspot name="spotpoint114"
-           ath="3.507836" atv="13.860358"
-           style="Iconponto"
-           tag="point"
-           descriptionid=""
-           linktarget="pano37"
-           onclick="onclickspotpoint114"
-           />
-  <hotspot name="spotpoint114" devices="flash" zorder="3"/>
-  <hotspot name="spotpoint114" devices="html5" zorder="3" zorder2="1"/>
-  <action name="onclickspotpoint114">
-  
-        mainloadscene(pano37);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
-
-
-  </action>
-
-
-
-  <action name="hidepanopointspots">
-
-    set(hotspot[spotpoint114].visible, false);
-  </action>
-  <action name="showpanopointspots">
-
-  
-  set(hotspot[spotpoint114].visible, true);
-  </action>
-  <events name="pano36stopanimatedspots" onremovepano="" />
 
   <action name="showpanospotsaction">
     if (tour_displayspots,

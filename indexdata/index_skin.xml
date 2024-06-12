@@ -147,14 +147,14 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 		
 		<option name="caption_displayed" value="false" type="bool" />
 		
-		<option name="play_displayed" value="true" type="bool" />
+		<option name="play_displayed" value="false" type="bool" />
 		<option name="play_position" value="bottomleft" type="string" />
 		<option name="play_text" value="galleryplay_text" type="string" />
 
 
 
 
-		<option name="navigation_displayed" value="true" type="bool" />
+		<option name="navigation_displayed" value="false" type="bool" />
 		<option name="navigation_position" value="bottom" type="string" />
 		<option name="counter_color" value="666666" type="string" />
 		<option name="navprev_text" value="gallerynavprev_text" type="string" />
@@ -166,6 +166,10 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 		<option name="navigation_arrows" value="true" type="bool" />
 
 
+		<option name="leftarrow_image" value="indexdata/graphics/gallery/l_arrow.png" type="string" />
+
+
+		<option name="rightarrow_image" value="indexdata/graphics/gallery/r_arrow.png" type="string" />
 
 
 		<option name="fullscreen_displayed" value="false" type="bool" />
@@ -178,6 +182,8 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 		<option name="close_displayed" value="true" type="bool" />
 		<option name="close_position" value="topright" type="string" />
 		<option name="close_text" value="galleryclose_text" type="string" />
+
+		<option name="close_image" value="indexdata/graphics/gallery/btn_close.png" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery')" type="string" />
 		<option name="zorder" value="3" type="int" />
@@ -309,14 +315,14 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 		<option name="caption_height" value="35" type="int" />
 		<option name="caption_textalign" value="center" type="string" />
 		
-		<option name="play_displayed" value="true" type="bool" />
+		<option name="play_displayed" value="false" type="bool" />
 		<option name="play_position" value="bottomleft" type="string" />
 		<option name="play_text" value="gallery1play_text" type="string" />
 
 
 
 
-		<option name="navigation_displayed" value="true" type="bool" />
+		<option name="navigation_displayed" value="false" type="bool" />
 		<option name="navigation_position" value="bottom" type="string" />
 		<option name="counter_color" value="666666" type="string" />
 		<option name="navprev_text" value="gallery1navprev_text" type="string" />
@@ -328,6 +334,10 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 		<option name="navigation_arrows" value="true" type="bool" />
 
 
+		<option name="leftarrow_image" value="indexdata/graphics/gallery1/l_arrow.png" type="string" />
+
+
+		<option name="rightarrow_image" value="indexdata/graphics/gallery1/r_arrow.png" type="string" />
 
 
 		<option name="fullscreen_displayed" value="false" type="bool" />
@@ -340,6 +350,8 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 		<option name="close_displayed" value="true" type="bool" />
 		<option name="close_position" value="topright" type="string" />
 		<option name="close_text" value="gallery1close_text" type="string" />
+
+		<option name="close_image" value="indexdata/graphics/gallery1/btn_close.png" type="string" />
 
 		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery1')" type="string" />
 		<option name="zorder" value="4" type="int" />
@@ -599,14 +611,14 @@ getmessage(urltoopen,titleonclick121893openurlwebsiteurl);openurl(get(urltoopen)
          align="bottom" x="0" y="0"
          bg="false"
          bgborder="0"
-         alpha="0.7000076295109483"
+         alpha="0.70196078431372544"
          visible="false"
          capture="true" handcursor="true" enabled="true"
          onclick="titleOnClick"
          interactivecontent="false" 
          txtshadow="1.0 1.0 4.0 0x000000 1.0"
          css="text-align:center;
-              color:#ffffff;
+              color:#ff8303;
               font-family:Arial;
               font-weight:bold;
               font-size:18px;"/>
@@ -627,7 +639,7 @@ getmessage(urltoopen,titleonclick121893openurlwebsiteurl);openurl(get(urltoopen)
 
 
 
-  <action name="button1OnClick">showGallery_gallery();
+  <action name="button1OnClick">showGallery_gallery1();
 
 
   </action>
@@ -657,7 +669,7 @@ getmessage(urltoopen,titleonclick121893openurlwebsiteurl);openurl(get(urltoopen)
 
 
 
-  <action name="button2OnClick">showGallery_gallery1();
+  <action name="button2OnClick">showGallery_gallery();
 
 
   </action>
@@ -1547,18 +1559,6 @@ floorPlanActivateDefaultSpot();););
 						
 						</item>
 						<item name="group_2_item_3"
-							action="invokeKrFunction('mainloadscene', 'pano35')"
-								titleID="pano35_title"
-								thumbnail="indexdata/quarto_filha_35/thumbnail.jpg"
-							cssClass="pano35">
-						
-								<option name="item_out_bg_color" value="3c3c3c" type="string" />
-								<option name="item_out_bg_alpha" value="0.46274509803921571" type="float" />
-								<option name="item_hover_bg_color" value="323232" type="string" />
-								<option name="item_hover_bg_alpha" value="0.46274509803921571" type="float" />
-						
-						</item>
-						<item name="group_2_item_4"
 							action="invokeKrFunction('mainloadscene', 'pano40')"
 								titleID="pano40_title"
 								thumbnail="indexdata/varanda_40/thumbnail.jpg"
@@ -1570,11 +1570,23 @@ floorPlanActivateDefaultSpot();););
 								<option name="item_hover_bg_alpha" value="0.46274509803921571" type="float" />
 						
 						</item>
+						<item name="group_2_item_4"
+							action="invokeKrFunction('mainloadscene', 'pano35')"
+								titleID="pano35_title"
+								thumbnail="indexdata/quarto_filha_35/thumbnail.jpg"
+							cssClass="pano35">
+						
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
+								<option name="item_out_bg_alpha" value="0.46274509803921571" type="float" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
+								<option name="item_hover_bg_alpha" value="0.46274509803921571" type="float" />
+						
+						</item>
 						<item name="group_2_item_5"
-							action="invokeKrFunction('mainloadscene', 'pano39')"
-								titleID="pano39_title"
-								thumbnail="indexdata/suite_39/thumbnail.jpg"
-							cssClass="pano39">
+							action="invokeKrFunction('mainloadscene', 'pano36')"
+								titleID="pano36_title"
+								thumbnail="indexdata/quarto_gemeos_36/thumbnail.jpg"
+							cssClass="pano36">
 						
 								<option name="item_out_bg_color" value="3c3c3c" type="string" />
 								<option name="item_out_bg_alpha" value="0.46274509803921571" type="float" />
@@ -1583,10 +1595,10 @@ floorPlanActivateDefaultSpot();););
 						
 						</item>
 						<item name="group_2_item_6"
-							action="invokeKrFunction('mainloadscene', 'pano36')"
-								titleID="pano36_title"
-								thumbnail="indexdata/quarto_gemeos_36/thumbnail.jpg"
-							cssClass="pano36">
+							action="invokeKrFunction('mainloadscene', 'pano39')"
+								titleID="pano39_title"
+								thumbnail="indexdata/suite_39/thumbnail.jpg"
+							cssClass="pano39">
 						
 								<option name="item_out_bg_color" value="3c3c3c" type="string" />
 								<option name="item_out_bg_alpha" value="0.46274509803921571" type="float" />
@@ -1719,114 +1731,6 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
   <action name="hidebutton3">set(layer[button3].visible, false);</action>
   <action name="showbutton3">if(tour_displaycontrols,set(layer[button3].visible, true);,hidebutton3(););</action>
 
-
-
-
-  <layer name="gyroButton"
-         keep="true"
-         url="%FIRSTXML%/graphics/gyrobutton/gyro_b.png" 
-         align="bottom"
-         x="0"
-         y="15"
-         zorder="17"
-         tooltip=""
-         onhover="gyroButtonOnHover"
-         state="true"
-         onclick="gyroButtonOnClick"
-         onover="tween(scale, 1.2,0.5,easeOutQuad);"
-         onout="hideTooltip();tween(scale, 1.0,0.5,easeOutQuad);"
-         height="35"
-         width="35"
-         visible="false"
-         />
-
-  <action name="gyroButtonOnHover">
-    if (state,
-      set(tooltip, gyroButtonfirsttooltip);
-     ,
-      set(tooltip, gyroButtonsecondtooltip);
-    );
-    if (tooltip != "", showTooltip(bottom,''););
-  </action>
-  <action name="gyroButtonOnClick">
-    if (state,disableGyroscope();
-
-     ,enableGyroscope();
-
-    );
-  </action>
-
-  <events name="gyroButtonevents" 
-    onTourStart="gyroButtonShowGyroscopeButtons();"
-    hidetourcontrols="hidegyroButton();" 
-    showtourcontrols="gyroButtonShowGyroscopeButtons();" 
-	ongyroscopeavailable="gyroButtonupdateGyroscopeButtonsAvailability();"
-	ongyroscopeunavailable="gyroButtonupdateGyroscopeButtonsAvailability();"
-	ongyroscopeon="gyroButtonenableGyroscopeButtons(true);"
-	ongyroscopeoff="gyroButtonenableGyroscopeButtons(false);"
-    keep="true" device="html5" />
-
-  <events name="gyroButtonDesktopEvents" onTourStart="delayedcall(gyroButton_desktopdelay,3.0,ifnot(plugin[gyroscope],gyroButtonHideGyroscopeButtons(true);););" keep="true" device="desktop" />
-
-  <action name="hidegyroButton">if(layer[gyroButton],set(layer[gyroButton].visible, false););</action>
-  <action name="showgyroButton">if(layer[gyroButton],set(layer[gyroButton].visible, true););</action>
-
-
-  <krpano gyroButtongyroscopeavailable="false" gyroButtongyroscopeenabled="false"/>
-  <action name="gyroButtonupdateGyroscopeButtonsAvailability">
-    stopdelayedcall(gyroButton_desktopdelay);
-	if (tour_gyroscopedevices,
-      set(gyroButtongyroscopeavailable, true);
-      gyroButtonupdateGyroscopeButtons();
-    ,
-      set(gyroButtongyroscopeavailable, false);
-      gyroButtonHideGyroscopeButtons(true);
-    );
-  </action>
-  <action name="gyroButtonenableGyroscopeButtons">
-    if (tour_gyroscopedevices,
-      set(gyroButtongyroscopeenabled, %1);
-      gyroButtonupdateGyroscopeButtons();
-    );
-  </action>
-  
-  <action name="gyroButtonHideGyroscopeButtons">
-		hidegyroButton();
-		if('%1' == 'true',
-			removelayer(gyroButton);
-			set(events[gyroButtonevents].name, null);
-			set(events[gyroButtonDesktopEvents].name, null);
-		);
-	</action>
-	<action name="gyroButtonShowGyroscopeButtons">
-		if (gyroButtongyroscopeavailable,
-			if (gyroButtongyroscopeenabled,
-
-				set(layer[gyroButton].state, true);
-				set(layer[gyroButton].url,%FIRSTXML%/graphics/gyrobutton/gyro_p.png);
-			,
-				set(layer[gyroButton].state, false);
-
-				set(layer[gyroButton].url,%FIRSTXML%/graphics/gyrobutton/gyro_b.png);
-			);
-			showgyroButton();
-		,
-			set(layer[gyroButton].state, false);
-			gyroButtonHideGyroscopeButtons();
-		);
-	</action>
-	<action name="gyroButtonupdateGyroscopeButtons">
-	if (tour_gyroscopedevices,
-		if (tour_displaycontrols,
-			gyroButtonShowGyroscopeButtons();
-		,
-			gyroButtonHideGyroscopeButtons();
-		);
-	,
-		gyroButtonHideGyroscopeButtons();
-	);
-	</action>
-
 <garrows_settings
 	show_floatingarrow_d="true"
 	show_chevrons_d="true"
@@ -1934,7 +1838,7 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
          onclick="loadPreviousScene();
 "
          visible="false"
-         zorder="19" />
+         zorder="18" />
 
   <layer name="prevnexttheme8nextPanoramaArrow" style="prevnexttheme8ArrowStyle"
          url="%FIRSTXML%/graphics/prevnextdots/btn_scroll_right.png" align="right"
@@ -1943,7 +1847,7 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
          onclick="loadNextScene();
 "
          visible="false"
-         zorder="19" />
+         zorder="18" />
 
   <events name="prevnexttheme8hideshowcontrolsevent" 
     onTourStart="prevnexttheme8showPrevNextControls();"
@@ -2002,14 +1906,6 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
 	</action>
   <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
   <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
-
-
-  <action name="enableGyroscope">
-    changeGyroscopeState(true);
-  </action>
-  <action name="disableGyroscope">
-    changeGyroscopeState(false);
-  </action>
 
 
 </krpano>

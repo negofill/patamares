@@ -25,10 +25,10 @@
 
   <data name="pt_BR_pano37_title"><![CDATA[ESTAR/JANTAR]]></data>
   <data name="pt_BR_pano29_title"><![CDATA[JANTAR/ESTAR]]></data>
-  <data name="pt_BR_pano35_title"><![CDATA[QUARTO 1]]></data>
   <data name="pt_BR_pano40_title"><![CDATA[VARANDA]]></data>
-  <data name="pt_BR_pano39_title"><![CDATA[SUITE]]></data>
+  <data name="pt_BR_pano35_title"><![CDATA[QUARTO 1]]></data>
   <data name="pt_BR_pano36_title"><![CDATA[QUARTO 2]]></data>
+  <data name="pt_BR_pano39_title"><![CDATA[SUITE]]></data>
 
 
 
@@ -56,9 +56,6 @@
   <data name="pt_BR_contextmenucloseFsLabel"><![CDATA[Exit Fullscreen]]></data>
   <data name="pt_BR_contextmenuopenVrLabel"><![CDATA[Enter VR mode]]></data>
   <data name="pt_BR_logo2websiteurl"><![CDATA[https://maps.app.goo.gl/SLDhwCVWRM99uwSE9]]></data>
-  <data name="pt_BR_galleryplay_text"><![CDATA[Play / Pause]]></data>
-  <data name="pt_BR_gallerynavprev_text"><![CDATA[Previous]]></data>
-  <data name="pt_BR_gallerynavnext_text"><![CDATA[Next]]></data>
   <data name="pt_BR_galleryclose_text"><![CDATA[Close]]></data>
   <data name="pt_BR_gallerypicture_title0"><![CDATA[]]></data>
   <data name="pt_BR_gallerypicture_caption0"><![CDATA[]]></data>
@@ -72,9 +69,6 @@
   <data name="pt_BR_gallerypicture_caption4"><![CDATA[]]></data>
   <data name="pt_BR_gallerypicture_title5"><![CDATA[]]></data>
   <data name="pt_BR_gallerypicture_caption5"><![CDATA[]]></data>
-  <data name="pt_BR_gallery1play_text"><![CDATA[Play / Pause]]></data>
-  <data name="pt_BR_gallery1navprev_text"><![CDATA[Previous]]></data>
-  <data name="pt_BR_gallery1navnext_text"><![CDATA[Next]]></data>
   <data name="pt_BR_gallery1close_text"><![CDATA[Close]]></data>
   <data name="pt_BR_gallery1picture_title0"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_caption0"><![CDATA[]]></data>
@@ -120,8 +114,6 @@
   <data name="pt_BR_webvrbuttontooltip"><![CDATA[]]></data>
   <data name="pt_BR_logo3websiteurl"><![CDATA[https://stanza.com.br/empreendimentos/jardim-patamares-salvador/]]></data>
   <data name="pt_BR_button3tooltip"><![CDATA[]]></data>
-  <data name="pt_BR_gyroButtonfirsttooltip"><![CDATA[Enable Gyroscope]]></data>
-  <data name="pt_BR_gyroButtonsecondtooltip"><![CDATA[Disable Gyroscope]]></data>
   <data name="pt_BR_garrowsnavhotspots_style"><![CDATA[Icoponton]]></data>
   <data name="pt_BR_garrowsnavhotspots_style_vertical"><![CDATA[IconDefaultPointSpotStyle1]]></data>
   <data name="pt_BR_garrowsfloatingarrow_alpha"><![CDATA[0.5]]></data>
