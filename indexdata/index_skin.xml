@@ -822,16 +822,16 @@ getmessage(urltoopen,titleonclick121893openurlwebsiteurl);openurl(get(urltoopen)
 								url="floorplan/stanza_-_jardim_patamares_-_implantacao_panogroup47.jpg" 
 								title="panogroup47_floor_title"
 								heading="0">
-										<spot name="spotmap102" posX="0.887346029" posY="0.292962015" heading="0" desc="spotmap102_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano34" jsClick="spotmap102ActionSpotFloorPlan">
+										<spot name="spotmap102" posX="0.888724029" posY="0.298742145" heading="0" desc="spotmap102_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano34" jsClick="spotmap102ActionSpotFloorPlan">
 											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
-										<spot name="spotmap103" posX="0.753085971" posY="0.296236008" heading="0" desc="spotmap103_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano31" jsClick="spotmap103ActionSpotFloorPlan">
+										<spot name="spotmap103" posX="0.749258161" posY="0.295597494" heading="0" desc="spotmap103_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano31" jsClick="spotmap103ActionSpotFloorPlan">
 											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
-										<spot name="spotmap104" posX="0.921296" posY="0.569558024" heading="0" desc="spotmap104_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano33" jsClick="spotmap104ActionSpotFloorPlan">
+										<spot name="spotmap104" posX="0.922848642" posY="0.572327018" heading="0" desc="spotmap104_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano33" jsClick="spotmap104ActionSpotFloorPlan">
 											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
-										<spot name="spotmap105" posX="0.912037015" posY="0.729951024" heading="0" desc="spotmap105_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano28" jsClick="spotmap105ActionSpotFloorPlan">
+										<spot name="spotmap105" posX="0.91246289" posY="0.73113209" heading="0" desc="spotmap105_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano28" jsClick="spotmap105ActionSpotFloorPlan">
 											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 										<spot name="spotmap106" posX="0.192901" posY="0.801963985" heading="0" desc="spotmap106_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano27" jsClick="spotmap106ActionSpotFloorPlan">
@@ -840,13 +840,16 @@ getmessage(urltoopen,titleonclick121893openurlwebsiteurl);openurl(get(urltoopen)
 										<spot name="spotmap107" posX="0.271605015" posY="0.795417011" heading="0" desc="spotmap107_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano26" jsClick="spotmap107ActionSpotFloorPlan">
 											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
-										<spot name="spotmap108" posX="0.78858" posY="0.417349011" heading="0" desc="spotmap108_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano38" jsClick="spotmap108ActionSpotFloorPlan">
+										<spot name="spotmap108" posX="0.78783381" posY="0.416666657" heading="0" desc="spotmap108_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano38" jsClick="spotmap108ActionSpotFloorPlan">
 											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 										<spot name="spotmap109" posX="0.904321015" posY="0.423895001" heading="0" desc="spotmap109_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano25" jsClick="spotmap109ActionSpotFloorPlan">
 											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
-										<spot name="spotmap110" posX="0.745369971" posY="0.482814997" heading="0" desc="spotmap110_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano32" jsClick="spotmap110ActionSpotFloorPlan">
+										<spot name="spotmap110" posX="0.743323445" posY="0.482704401" heading="0" desc="spotmap110_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano32" jsClick="spotmap110ActionSpotFloorPlan">
+											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
+										</spot>
+										<spot name="spotmap2531" posX="0.946587563" posY="0.397798747" heading="0" desc="spotmap2531_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano24" jsClick="spotmap2531ActionSpotFloorPlan">
 											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 							</floorplanItem>
@@ -935,6 +938,11 @@ floorPlanActivateDefaultSpot();););
 						<action name="spotmap110ActionSpotFloorPlan">if(xml.scene == pano32,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
 floorPlanActivateDefaultSpot();););
           mainloadscene(pano32);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+						<action name="spotmap2531ActionSpotFloorPlan">if(xml.scene == pano24,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano24);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
 
 </action>
 					

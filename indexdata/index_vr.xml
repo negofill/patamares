@@ -504,7 +504,7 @@
 
 
   <hotspot name="spotpoint76"
-           ath="108.087831" atv="1.100156"
+           ath="107.917699" atv="1.205511"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -518,6 +518,31 @@
   <action name="onclickspotpoint76">
   
         mainloadscene(pano38);
+
+
+  </action>
+
+
+
+
+
+
+
+  <hotspot name="spotpoint2528"
+           ath="90.565822" atv="1.412170"
+           style="Iconponto"
+           tag="point"
+           distorted="true"
+           depth="1000"
+           descriptionid=""
+           linktarget="pano32"
+           onclick="onclickspotpoint2528"
+           />
+  <hotspot name="spotpoint2528" devices="flash" zorder="3"/>
+  <hotspot name="spotpoint2528" devices="html5" zorder="3" zorder2="1"/>
+  <action name="onclickspotpoint2528">
+  
+        mainloadscene(pano32);
 
 
   </action>
@@ -545,6 +570,10 @@
 
 
     set(hotspot[spotpoint76].visible, false);
+
+
+
+    set(hotspot[spotpoint2528].visible, false);
   </action>
   <action name="showpanopointspots">
 
@@ -572,6 +601,11 @@
 
   
   set(hotspot[spotpoint76].visible, true);
+
+
+
+  
+  set(hotspot[spotpoint2528].visible, true);
   </action>
   <events name="pano33stopanimatedspots" onremovepano="" />
 
@@ -682,11 +716,40 @@
 
 
 
+
+
+
+
+  <hotspot name="spotpoint2529"
+           ath="147.043101" atv="0.542532"
+           style="Iconponto"
+           tag="point"
+           distorted="true"
+           depth="1000"
+           descriptionid=""
+           linktarget="pano32"
+           onclick="onclickspotpoint2529"
+           />
+  <hotspot name="spotpoint2529" devices="flash" zorder="3"/>
+  <hotspot name="spotpoint2529" devices="html5" zorder="3" zorder2="1"/>
+  <action name="onclickspotpoint2529">
+  
+        mainloadscene(pano32);
+
+
+  </action>
+
+
+
   <action name="hidepanopointspots">
 
 
 
     set(hotspot[spotpoint68].visible, false);
+
+
+
+    set(hotspot[spotpoint2529].visible, false);
   </action>
   <action name="showpanopointspots">
 
@@ -694,6 +757,11 @@
 
   
   set(hotspot[spotpoint68].visible, true);
+
+
+
+  
+  set(hotspot[spotpoint2529].visible, true);
   </action>
   <events name="pano28stopanimatedspots" onremovepano="" />
 
@@ -1096,7 +1164,7 @@
 
 
   <hotspot name="spotpoint78"
-           ath="140.856850" atv="1.788121"
+           ath="140.708273" atv="2.097902"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -1116,11 +1184,40 @@
 
 
 
+
+
+
+
+  <hotspot name="spotpoint2530"
+           ath="-177.805515" atv="0.419580"
+           style="Iconponto"
+           tag="point"
+           distorted="true"
+           depth="1000"
+           descriptionid=""
+           linktarget="pano31"
+           onclick="onclickspotpoint2530"
+           />
+  <hotspot name="spotpoint2530" devices="flash" zorder="3"/>
+  <hotspot name="spotpoint2530" devices="html5" zorder="3" zorder2="1"/>
+  <action name="onclickspotpoint2530">
+  
+        mainloadscene(pano31);
+
+
+  </action>
+
+
+
   <action name="hidepanopointspots">
 
 
 
     set(hotspot[spotpoint78].visible, false);
+
+
+
+    set(hotspot[spotpoint2530].visible, false);
   </action>
   <action name="showpanopointspots">
 
@@ -1128,6 +1225,11 @@
 
   
   set(hotspot[spotpoint78].visible, true);
+
+
+
+  
+  set(hotspot[spotpoint2530].visible, true);
   </action>
   <events name="pano34stopanimatedspots" onremovepano="" />
 
@@ -1944,7 +2046,7 @@
 
 
   <hotspot name="spotpoint118"
-           ath="141.230879" atv="10.903502"
+           ath="142.356406" atv="11.415929"
            style="Iconponto"
            tag="point"
            distorted="true"
