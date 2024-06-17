@@ -1394,11 +1394,69 @@
 
 
 
+
+
+
+
+  <hotspot name="spotpoint2525"
+           ath="-169.543568" atv="4.491682"
+           style="Iconponto"
+           tag="point"
+           distorted="true"
+           depth="1000"
+           descriptionid=""
+           linktarget="pano34"
+           onclick="onclickspotpoint2525"
+           />
+  <hotspot name="spotpoint2525" devices="flash" zorder="3"/>
+  <hotspot name="spotpoint2525" devices="html5" zorder="3" zorder2="1"/>
+  <action name="onclickspotpoint2525">
+  
+        mainloadscene(pano34);
+
+
+  </action>
+
+
+
+
+
+
+
+  <hotspot name="spotpoint2526"
+           ath="149.792531" atv="3.327172"
+           style="Iconponto"
+           tag="point"
+           distorted="true"
+           depth="1000"
+           descriptionid=""
+           linktarget="pano31"
+           onclick="onclickspotpoint2526"
+           />
+  <hotspot name="spotpoint2526" devices="flash" zorder="3"/>
+  <hotspot name="spotpoint2526" devices="html5" zorder="3" zorder2="1"/>
+  <action name="onclickspotpoint2526">
+  
+        mainloadscene(pano31);
+
+
+  </action>
+
+
+
   <action name="hidepanopointspots">
 
 
 
     set(hotspot[spotpoint77].visible, false);
+
+
+
+    set(hotspot[spotpoint2525].visible, false);
+
+
+
+    set(hotspot[spotpoint2526].visible, false);
   </action>
   <action name="showpanopointspots">
 
@@ -1406,6 +1464,16 @@
 
   
   set(hotspot[spotpoint77].visible, true);
+
+
+
+  
+  set(hotspot[spotpoint2525].visible, true);
+
+
+
+  
+  set(hotspot[spotpoint2526].visible, true);
   </action>
   <events name="pano38stopanimatedspots" onremovepano="" />
 
@@ -2088,11 +2156,40 @@
 
 
 
+
+
+
+
+  <hotspot name="spotpoint2527"
+           ath="-0.923077" atv="8.685832"
+           style="Iconponto"
+           tag="point"
+           distorted="true"
+           depth="1000"
+           descriptionid=""
+           linktarget="pano40"
+           onclick="onclickspotpoint2527"
+           />
+  <hotspot name="spotpoint2527" devices="flash" zorder="3"/>
+  <hotspot name="spotpoint2527" devices="html5" zorder="3" zorder2="1"/>
+  <action name="onclickspotpoint2527">
+  
+        mainloadscene(pano40);
+
+
+  </action>
+
+
+
   <action name="hidepanopointspots">
 
 
 
     set(hotspot[spotpoint112].visible, false);
+
+
+
+    set(hotspot[spotpoint2527].visible, false);
   </action>
   <action name="showpanopointspots">
 
@@ -2100,6 +2197,11 @@
 
   
   set(hotspot[spotpoint112].visible, true);
+
+
+
+  
+  set(hotspot[spotpoint2527].visible, true);
   </action>
   <events name="pano29stopanimatedspots" onremovepano="" />
 
@@ -2224,6 +2326,128 @@
   set(hotspot[spotpoint2488].visible, true);
   </action>
   <events name="pano40stopanimatedspots" onremovepano="" />
+
+  <action name="showpanospotsaction">
+    if (tour_displayspots,
+    showpanopointspots();
+    );
+  </action>
+  <action name="hidepanospotsaction">
+    hidepanopointspots();
+  </action>
+
+
+</scene>
+
+
+
+<scene name="pano39"
+       heading="0"
+       group="panogroup46"
+       thumburl="%FIRSTXML%/suite_39/thumbnail.jpg"
+       backgroundsound=""
+       backgroundsoundloops="true"
+       haspolygons="false"
+       titleid="pano39_title"
+       descriptionid=""
+       multires="true"
+       planar="false"
+       full360="true"
+       video="false"
+       seen="false">
+    <autorotate horizon="16.200000" tofov="75.000000" waittime="1" speed="5"/>
+    <panoview h="16.200000" v="16.200000" fov="75.000000" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
+    <view fisheye="0"
+          limitview="range"
+          hlookatmin="-180"
+          hlookatmax="180"
+          vlookatmin="-90"
+          vlookatmax="90"
+          maxpixelzoom="1.0"
+          fovtype="VFOV"
+          fovmax="90"
+          fov="75.000000"
+          hlookat="16.200000"
+          vlookat="16.200000"/>
+    <preview url="%FIRSTXML%/suite_39/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
+    <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="2560" tiledimageheight="2560">
+          <front url="suite_39/0/2/%v_%u.jpg"/>
+          <right url="suite_39/1/2/%v_%u.jpg"/>
+          <back  url="suite_39/2/2/%v_%u.jpg"/>
+          <left  url="suite_39/3/2/%v_%u.jpg"/>
+          <up    url="suite_39/4/2/%v_%u.jpg"/>
+          <down  url="suite_39/5/2/%v_%u.jpg"/>
+      </level>
+      <level tiledimagewidth="1536" tiledimageheight="1536">
+          <front url="suite_39/0/1/%v_%u.jpg"/>
+          <right url="suite_39/1/1/%v_%u.jpg"/>
+          <back  url="suite_39/2/1/%v_%u.jpg"/>
+          <left  url="suite_39/3/1/%v_%u.jpg"/>
+          <up    url="suite_39/4/1/%v_%u.jpg"/>
+          <down  url="suite_39/5/1/%v_%u.jpg"/>
+      </level>
+      <level tiledimagewidth="1024" tiledimageheight="1024">
+          <front url="suite_39/0/0/%v_%u.jpg"/>
+          <right url="suite_39/1/0/%v_%u.jpg"/>
+          <back  url="suite_39/2/0/%v_%u.jpg"/>
+          <left  url="suite_39/3/0/%v_%u.jpg"/>
+          <up    url="suite_39/4/0/%v_%u.jpg"/>
+          <down  url="suite_39/5/0/%v_%u.jpg"/>
+      </level>
+    </image>
+    <image type="CUBE" devices="androidstock.and.no-webgl">
+      <front url="suite_39/mobile/0.jpg"/>
+      <right url="suite_39/mobile/1.jpg"/>
+      <back  url="suite_39/mobile/2.jpg"/>
+      <left  url="suite_39/mobile/3.jpg"/>
+      <up    url="suite_39/mobile/4.jpg"/>
+      <down  url="suite_39/mobile/5.jpg"/>
+    </image>
+
+
+
+
+
+
+
+
+
+  <hotspot name="spotpoint113"
+           ath="-113.907602" atv="24.209458"
+           style="Iconponto"
+           tag="point"
+           distorted="true"
+           depth="1000"
+           descriptionid=""
+           linktarget="pano37"
+           onclick="onclickspotpoint113"
+           />
+  <hotspot name="spotpoint113" devices="flash" zorder="3"/>
+  <hotspot name="spotpoint113" devices="html5" zorder="3" zorder2="1"/>
+  <action name="onclickspotpoint113">
+  
+        mainloadscene(pano37);
+
+
+  </action>
+
+
+
+  <action name="hidepanopointspots">
+
+
+
+    set(hotspot[spotpoint113].visible, false);
+  </action>
+  <action name="showpanopointspots">
+
+
+
+  
+  set(hotspot[spotpoint113].visible, true);
+  </action>
+  <events name="pano39stopanimatedspots" onremovepano="" />
 
   <action name="showpanospotsaction">
     if (tour_displayspots,
@@ -2468,128 +2692,6 @@
   set(hotspot[spotpoint114].visible, true);
   </action>
   <events name="pano36stopanimatedspots" onremovepano="" />
-
-  <action name="showpanospotsaction">
-    if (tour_displayspots,
-    showpanopointspots();
-    );
-  </action>
-  <action name="hidepanospotsaction">
-    hidepanopointspots();
-  </action>
-
-
-</scene>
-
-
-
-<scene name="pano39"
-       heading="0"
-       group="panogroup46"
-       thumburl="%FIRSTXML%/suite_39/thumbnail.jpg"
-       backgroundsound=""
-       backgroundsoundloops="true"
-       haspolygons="false"
-       titleid="pano39_title"
-       descriptionid=""
-       multires="true"
-       planar="false"
-       full360="true"
-       video="false"
-       seen="false">
-    <autorotate horizon="16.200000" tofov="75.000000" waittime="1" speed="5"/>
-    <panoview h="16.200000" v="16.200000" fov="75.000000" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
-    <view fisheye="0"
-          limitview="range"
-          hlookatmin="-180"
-          hlookatmax="180"
-          vlookatmin="-90"
-          vlookatmax="90"
-          maxpixelzoom="1.0"
-          fovtype="VFOV"
-          fovmax="90"
-          fov="75.000000"
-          hlookat="16.200000"
-          vlookat="16.200000"/>
-    <preview url="%FIRSTXML%/suite_39/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
-    <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
-      <level tiledimagewidth="2560" tiledimageheight="2560">
-          <front url="suite_39/0/2/%v_%u.jpg"/>
-          <right url="suite_39/1/2/%v_%u.jpg"/>
-          <back  url="suite_39/2/2/%v_%u.jpg"/>
-          <left  url="suite_39/3/2/%v_%u.jpg"/>
-          <up    url="suite_39/4/2/%v_%u.jpg"/>
-          <down  url="suite_39/5/2/%v_%u.jpg"/>
-      </level>
-      <level tiledimagewidth="1536" tiledimageheight="1536">
-          <front url="suite_39/0/1/%v_%u.jpg"/>
-          <right url="suite_39/1/1/%v_%u.jpg"/>
-          <back  url="suite_39/2/1/%v_%u.jpg"/>
-          <left  url="suite_39/3/1/%v_%u.jpg"/>
-          <up    url="suite_39/4/1/%v_%u.jpg"/>
-          <down  url="suite_39/5/1/%v_%u.jpg"/>
-      </level>
-      <level tiledimagewidth="1024" tiledimageheight="1024">
-          <front url="suite_39/0/0/%v_%u.jpg"/>
-          <right url="suite_39/1/0/%v_%u.jpg"/>
-          <back  url="suite_39/2/0/%v_%u.jpg"/>
-          <left  url="suite_39/3/0/%v_%u.jpg"/>
-          <up    url="suite_39/4/0/%v_%u.jpg"/>
-          <down  url="suite_39/5/0/%v_%u.jpg"/>
-      </level>
-    </image>
-    <image type="CUBE" devices="androidstock.and.no-webgl">
-      <front url="suite_39/mobile/0.jpg"/>
-      <right url="suite_39/mobile/1.jpg"/>
-      <back  url="suite_39/mobile/2.jpg"/>
-      <left  url="suite_39/mobile/3.jpg"/>
-      <up    url="suite_39/mobile/4.jpg"/>
-      <down  url="suite_39/mobile/5.jpg"/>
-    </image>
-
-
-
-
-
-
-
-
-
-  <hotspot name="spotpoint113"
-           ath="-113.907602" atv="24.209458"
-           style="Iconponto"
-           tag="point"
-           distorted="true"
-           depth="1000"
-           descriptionid=""
-           linktarget="pano37"
-           onclick="onclickspotpoint113"
-           />
-  <hotspot name="spotpoint113" devices="flash" zorder="3"/>
-  <hotspot name="spotpoint113" devices="html5" zorder="3" zorder2="1"/>
-  <action name="onclickspotpoint113">
-  
-        mainloadscene(pano37);
-
-
-  </action>
-
-
-
-  <action name="hidepanopointspots">
-
-
-
-    set(hotspot[spotpoint113].visible, false);
-  </action>
-  <action name="showpanopointspots">
-
-
-
-  
-  set(hotspot[spotpoint113].visible, true);
-  </action>
-  <events name="pano39stopanimatedspots" onremovepano="" />
 
   <action name="showpanospotsaction">
     if (tour_displayspots,

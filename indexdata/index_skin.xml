@@ -362,19 +362,20 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 		<item name="item_2" title="gallery1picture_title12" caption="gallery1picture_caption12" value="indexdata/graphics/gallery1/acesso_noturno.jpg"/>
 		<item name="item_3" title="gallery1picture_title1" caption="gallery1picture_caption1" value="indexdata/graphics/gallery1/fachada.jpg"/>
 		<item name="item_4" title="gallery1picture_title15" caption="gallery1picture_caption15" value="indexdata/graphics/gallery1/fachada_noturna.jpg"/>
-		<item name="item_5" title="gallery1picture_title2" caption="gallery1picture_caption2" value="indexdata/graphics/gallery1/bicicletario.jpg"/>
-		<item name="item_6" title="gallery1picture_title3" caption="gallery1picture_caption3" value="indexdata/graphics/gallery1/piscina1.jpg"/>
-		<item name="item_7" title="gallery1picture_title4" caption="gallery1picture_caption4" value="indexdata/graphics/gallery1/piscina2.jpg"/>
+		<item name="item_5" title="gallery1picture_title3" caption="gallery1picture_caption3" value="indexdata/graphics/gallery1/piscina1.jpg"/>
+		<item name="item_6" title="gallery1picture_title4" caption="gallery1picture_caption4" value="indexdata/graphics/gallery1/piscina2.jpg"/>
+		<item name="item_7" title="gallery1picture_title16" caption="gallery1picture_caption16" value="indexdata/graphics/gallery1/piscina_noturna.jpg"/>
 		<item name="item_8" title="gallery1picture_title5" caption="gallery1picture_caption5" value="indexdata/graphics/gallery1/churrasqueira.jpg"/>
-		<item name="item_9" title="gallery1picture_title6" caption="gallery1picture_caption6" value="indexdata/graphics/gallery1/acadademia.jpg"/>
-		<item name="item_10" title="gallery1picture_title7" caption="gallery1picture_caption7" value="indexdata/graphics/gallery1/quadra.jpg"/>
-		<item name="item_11" title="gallery1picture_title8" caption="gallery1picture_caption8" value="indexdata/graphics/gallery1/parquinho.jpg"/>
-		<item name="item_12" title="gallery1picture_title9" caption="gallery1picture_caption9" value="indexdata/graphics/gallery1/pet_play.jpg"/>
-		<item name="item_13" title="gallery1picture_title10" caption="gallery1picture_caption10" value="indexdata/graphics/gallery1/lazer_aereo001.jpg"/>
-		<item name="item_14" title="gallery1picture_title11" caption="gallery1picture_caption11" value="indexdata/graphics/gallery1/academia.jpg"/>
-		<item name="item_15" title="gallery1picture_title13" caption="gallery1picture_caption13" value="indexdata/graphics/gallery1/dji_0765.jpg"/>
-		<item name="item_16" title="gallery1picture_title14" caption="gallery1picture_caption14" value="indexdata/graphics/gallery1/dji_0797.jpg"/>
-		<item name="item_17" title="gallery1picture_title16" caption="gallery1picture_caption16" value="indexdata/graphics/gallery1/piscina_noturna.jpg"/>
+		<item name="item_9" title="gallery1picture_title2" caption="gallery1picture_caption2" value="indexdata/graphics/gallery1/bicicletario.jpg"/>
+		<item name="item_10" title="gallery1picture_title6" caption="gallery1picture_caption6" value="indexdata/graphics/gallery1/acadademia.jpg"/>
+		<item name="item_11" title="gallery1picture_title7" caption="gallery1picture_caption7" value="indexdata/graphics/gallery1/quadra.jpg"/>
+		<item name="item_12" title="gallery1picture_title8" caption="gallery1picture_caption8" value="indexdata/graphics/gallery1/parquinho.jpg"/>
+		<item name="item_13" title="gallery1picture_title9" caption="gallery1picture_caption9" value="indexdata/graphics/gallery1/pet_play.jpg"/>
+		<item name="item_14" title="gallery1picture_title10" caption="gallery1picture_caption10" value="indexdata/graphics/gallery1/lazer_aereo001.jpg"/>
+		<item name="item_15" title="gallery1picture_title11" caption="gallery1picture_caption11" value="indexdata/graphics/gallery1/academia.jpg"/>
+		<item name="item_16" title="gallery1picture_title13" caption="gallery1picture_caption13" value="indexdata/graphics/gallery1/dji_0765.jpg"/>
+		<item name="item_17" title="gallery1picture_title14" caption="gallery1picture_caption14" value="indexdata/graphics/gallery1/dji_0797.jpg"/>
+		<item name="item_18" title="gallery1picture_title17" caption="gallery1picture_caption17" value="indexdata/graphics/gallery1/salao_de_festas.jpg"/>
 	</internaldata>
 </ptplugin>
 
@@ -611,7 +612,7 @@ getmessage(urltoopen,titleonclick121893openurlwebsiteurl);openurl(get(urltoopen)
          align="bottom" x="0" y="0"
          bg="false"
          bgborder="0"
-         alpha="0.70196078431372544"
+         alpha="0.7000076295109483"
          visible="false"
          capture="true" handcursor="true" enabled="true"
          onclick="titleOnClick"
@@ -762,8 +763,6 @@ getmessage(urltoopen,titleonclick121893openurlwebsiteurl);openurl(get(urltoopen)
       if (sceneisfull360 AND tour_firstlittleplanet, set(delaythegyrocheck, true));
 
       ifnot(delaythegyrocheck,
-        switch(plugin[gyroscope].enabled);
-        set(plugin[gyroscope].activated,true);
         set(tour_gyroscopedevices, true);
         events.dispatch(ongyroscopeavailable);
       ,
@@ -824,31 +823,31 @@ getmessage(urltoopen,titleonclick121893openurlwebsiteurl);openurl(get(urltoopen)
 								title="panogroup47_floor_title"
 								heading="0">
 										<spot name="spotmap102" posX="0.887346029" posY="0.292962015" heading="0" desc="spotmap102_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano34" jsClick="spotmap102ActionSpotFloorPlan">
-											<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
+											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 										<spot name="spotmap103" posX="0.753085971" posY="0.296236008" heading="0" desc="spotmap103_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano31" jsClick="spotmap103ActionSpotFloorPlan">
-											<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
+											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 										<spot name="spotmap104" posX="0.921296" posY="0.569558024" heading="0" desc="spotmap104_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano33" jsClick="spotmap104ActionSpotFloorPlan">
-											<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
+											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 										<spot name="spotmap105" posX="0.912037015" posY="0.729951024" heading="0" desc="spotmap105_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano28" jsClick="spotmap105ActionSpotFloorPlan">
-											<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
+											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 										<spot name="spotmap106" posX="0.192901" posY="0.801963985" heading="0" desc="spotmap106_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano27" jsClick="spotmap106ActionSpotFloorPlan">
-											<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
+											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 										<spot name="spotmap107" posX="0.271605015" posY="0.795417011" heading="0" desc="spotmap107_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano26" jsClick="spotmap107ActionSpotFloorPlan">
-											<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
+											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 										<spot name="spotmap108" posX="0.78858" posY="0.417349011" heading="0" desc="spotmap108_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano38" jsClick="spotmap108ActionSpotFloorPlan">
-											<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
+											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 										<spot name="spotmap109" posX="0.904321015" posY="0.423895001" heading="0" desc="spotmap109_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano25" jsClick="spotmap109ActionSpotFloorPlan">
-											<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
+											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 										<spot name="spotmap110" posX="0.745369971" posY="0.482814997" heading="0" desc="spotmap110_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano32" jsClick="spotmap110ActionSpotFloorPlan">
-											<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
+											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 							</floorplanItem>
 							<floorplanItem 
@@ -860,22 +859,22 @@ getmessage(urltoopen,titleonclick121893openurlwebsiteurl);openurl(get(urltoopen)
 								title="panogroup46_floor_title"
 								heading="0">
 										<spot name="spotmap94" posX="0.74634099" posY="0.386992007" heading="0" desc="spotmap94_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano26" jsClick="spotmap94ActionSpotFloorPlan">
-											<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
+											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 										<spot name="spotmap96" posX="0.700389028" posY="0.692606986" heading="0" desc="spotmap96_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano39" jsClick="spotmap96ActionSpotFloorPlan">
-											<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
+											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 										<spot name="spotmap97" posX="0.470817" posY="0.521400988" heading="0" desc="spotmap97_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano35" jsClick="spotmap97ActionSpotFloorPlan">
-											<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
+											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 										<spot name="spotmap98" posX="0.486380994" posY="0.272374004" heading="0" desc="spotmap98_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano37" jsClick="spotmap98ActionSpotFloorPlan">
-											<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
+											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 										<spot name="spotmap99" posX="0.167315006" posY="0.422179013" heading="0" desc="spotmap99_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano40" jsClick="spotmap99ActionSpotFloorPlan">
-											<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
+											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 										<spot name="spotmap100" posX="0.342411995" posY="0.221790001" heading="0" desc="spotmap100_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano29" jsClick="spotmap100ActionSpotFloorPlan">
-											<icon url="spots/pin_curved_2d_shadowed_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
+											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 							</floorplanItem>
 		</floorplanItems>
@@ -1571,6 +1570,18 @@ floorPlanActivateDefaultSpot();););
 						
 						</item>
 						<item name="group_2_item_4"
+							action="invokeKrFunction('mainloadscene', 'pano39')"
+								titleID="pano39_title"
+								thumbnail="indexdata/suite_39/thumbnail.jpg"
+							cssClass="pano39">
+						
+								<option name="item_out_bg_color" value="3c3c3c" type="string" />
+								<option name="item_out_bg_alpha" value="0.46274509803921571" type="float" />
+								<option name="item_hover_bg_color" value="323232" type="string" />
+								<option name="item_hover_bg_alpha" value="0.46274509803921571" type="float" />
+						
+						</item>
+						<item name="group_2_item_5"
 							action="invokeKrFunction('mainloadscene', 'pano35')"
 								titleID="pano35_title"
 								thumbnail="indexdata/quarto_filha_35/thumbnail.jpg"
@@ -1582,23 +1593,11 @@ floorPlanActivateDefaultSpot();););
 								<option name="item_hover_bg_alpha" value="0.46274509803921571" type="float" />
 						
 						</item>
-						<item name="group_2_item_5"
+						<item name="group_2_item_6"
 							action="invokeKrFunction('mainloadscene', 'pano36')"
 								titleID="pano36_title"
 								thumbnail="indexdata/quarto_gemeos_36/thumbnail.jpg"
 							cssClass="pano36">
-						
-								<option name="item_out_bg_color" value="3c3c3c" type="string" />
-								<option name="item_out_bg_alpha" value="0.46274509803921571" type="float" />
-								<option name="item_hover_bg_color" value="323232" type="string" />
-								<option name="item_hover_bg_alpha" value="0.46274509803921571" type="float" />
-						
-						</item>
-						<item name="group_2_item_6"
-							action="invokeKrFunction('mainloadscene', 'pano39')"
-								titleID="pano39_title"
-								thumbnail="indexdata/suite_39/thumbnail.jpg"
-							cssClass="pano39">
 						
 								<option name="item_out_bg_color" value="3c3c3c" type="string" />
 								<option name="item_out_bg_alpha" value="0.46274509803921571" type="float" />
@@ -1862,6 +1861,8 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
   </action>
 
 
+  <events name="eventsPluginevents" keep="true"/>
+
   <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
   <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
   <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
@@ -1906,6 +1907,14 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
 	</action>
   <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
   <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
+
+
+  <action name="enableGyroscope">
+    changeGyroscopeState(true);
+  </action>
+  <action name="disableGyroscope">
+    changeGyroscopeState(false);
+  </action>
 
 
 </krpano>
