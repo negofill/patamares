@@ -154,16 +154,20 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 
 
 
-		<option name="navigation_displayed" value="false" type="bool" />
+		<option name="navigation_displayed" value="true" type="bool" />
 		<option name="navigation_position" value="bottom" type="string" />
 		<option name="counter_color" value="666666" type="string" />
 		<option name="navprev_text" value="gallerynavprev_text" type="string" />
 		<option name="navnext_text" value="gallerynavnext_text" type="string" />
 
 
+		<option name="navprev_image" value="indexdata/graphics/gallery/l_arrow.png" type="string" />
 
 
-		<option name="navigation_arrows" value="true" type="bool" />
+		<option name="navnext_image" value="indexdata/graphics/gallery/r_arrow.png" type="string" />
+
+
+		<option name="navigation_arrows" value="false" type="bool" />
 
 
 		<option name="leftarrow_image" value="indexdata/graphics/gallery/l_arrow.png" type="string" />
@@ -322,16 +326,20 @@ getmessage(urltoopen,logo2websiteurl);openurl(get(urltoopen),_blank);
 
 
 
-		<option name="navigation_displayed" value="false" type="bool" />
+		<option name="navigation_displayed" value="true" type="bool" />
 		<option name="navigation_position" value="bottom" type="string" />
 		<option name="counter_color" value="666666" type="string" />
 		<option name="navprev_text" value="gallery1navprev_text" type="string" />
 		<option name="navnext_text" value="gallery1navnext_text" type="string" />
 
 
+		<option name="navprev_image" value="indexdata/graphics/gallery1/l_arrow.png" type="string" />
 
 
-		<option name="navigation_arrows" value="true" type="bool" />
+		<option name="navnext_image" value="indexdata/graphics/gallery1/r_arrow.png" type="string" />
+
+
+		<option name="navigation_arrows" value="false" type="bool" />
 
 
 		<option name="leftarrow_image" value="indexdata/graphics/gallery1/l_arrow.png" type="string" />
@@ -822,16 +830,16 @@ getmessage(urltoopen,titleonclick121893openurlwebsiteurl);openurl(get(urltoopen)
 								url="floorplan/stanza_-_jardim_patamares_-_implantacao_panogroup47.jpg" 
 								title="panogroup47_floor_title"
 								heading="0">
-										<spot name="spotmap102" posX="0.888724029" posY="0.298742145" heading="0" desc="spotmap102_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano34" jsClick="spotmap102ActionSpotFloorPlan">
+										<spot name="spotmap102" posX="0.888724029" posY="0.298741996" heading="0" desc="spotmap102_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano34" jsClick="spotmap102ActionSpotFloorPlan">
 											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
-										<spot name="spotmap103" posX="0.749258161" posY="0.295597494" heading="0" desc="spotmap103_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano31" jsClick="spotmap103ActionSpotFloorPlan">
+										<spot name="spotmap103" posX="0.749257982" posY="0.295596987" heading="0" desc="spotmap103_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano31" jsClick="spotmap103ActionSpotFloorPlan">
 											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
-										<spot name="spotmap104" posX="0.922848642" posY="0.572327018" heading="0" desc="spotmap104_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano33" jsClick="spotmap104ActionSpotFloorPlan">
+										<spot name="spotmap104" posX="0.922849" posY="0.572327018" heading="0" desc="spotmap104_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano33" jsClick="spotmap104ActionSpotFloorPlan">
 											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
-										<spot name="spotmap105" posX="0.91246289" posY="0.73113209" heading="0" desc="spotmap105_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano28" jsClick="spotmap105ActionSpotFloorPlan">
+										<spot name="spotmap105" posX="0.912463009" posY="0.731131971" heading="0" desc="spotmap105_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano28" jsClick="spotmap105ActionSpotFloorPlan">
 											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 										<spot name="spotmap106" posX="0.192901" posY="0.801963985" heading="0" desc="spotmap106_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano27" jsClick="spotmap106ActionSpotFloorPlan">
@@ -840,16 +848,16 @@ getmessage(urltoopen,titleonclick121893openurlwebsiteurl);openurl(get(urltoopen)
 										<spot name="spotmap107" posX="0.271605015" posY="0.795417011" heading="0" desc="spotmap107_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano26" jsClick="spotmap107ActionSpotFloorPlan">
 											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
-										<spot name="spotmap108" posX="0.78783381" posY="0.416666657" heading="0" desc="spotmap108_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano38" jsClick="spotmap108ActionSpotFloorPlan">
+										<spot name="spotmap108" posX="0.787833989" posY="0.416667014" heading="0" desc="spotmap108_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano38" jsClick="spotmap108ActionSpotFloorPlan">
 											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 										<spot name="spotmap109" posX="0.904321015" posY="0.423895001" heading="0" desc="spotmap109_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano25" jsClick="spotmap109ActionSpotFloorPlan">
 											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
-										<spot name="spotmap110" posX="0.743323445" posY="0.482704401" heading="0" desc="spotmap110_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano32" jsClick="spotmap110ActionSpotFloorPlan">
+										<spot name="spotmap110" posX="0.743323028" posY="0.482704014" heading="0" desc="spotmap110_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano32" jsClick="spotmap110ActionSpotFloorPlan">
 											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
-										<spot name="spotmap2531" posX="0.946587563" posY="0.397798747" heading="0" desc="spotmap2531_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano24" jsClick="spotmap2531ActionSpotFloorPlan">
+										<spot name="spotmap2531" posX="0.94658798" posY="0.397798985" heading="0" desc="spotmap2531_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano24" jsClick="spotmap2531ActionSpotFloorPlan">
 											<icon url="spots/hotspot_plan_user_defaultmap01.png" iconWidth="22" iconHeight="22" iconAnchor="center" />
 										</spot>
 							</floorplanItem>
@@ -1871,21 +1879,13 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
 
   <events name="eventsPluginevents" keep="true"/>
 
-  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
-  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
-  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+  <action name="enableGyroscope">
+    changeGyroscopeState(true);
+  </action>
+  <action name="disableGyroscope">
+    changeGyroscopeState(false);
+  </action>
 
-  
-  <events name="krpanoExitFullscreenEvent"
-    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
-    keep="true" />
-
-  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
-  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
-  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
-  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
-  
-  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
 
 
 	<plugin name="ptpvrmode" devices="html5" keep="true"
@@ -1917,12 +1917,20 @@ getmessage(urltoopen,logo3websiteurl);openurl(get(urltoopen),_blank);
   <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
 
 
-  <action name="enableGyroscope">
-    changeGyroscopeState(true);
-  </action>
-  <action name="disableGyroscope">
-    changeGyroscopeState(false);
-  </action>
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
 
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
+  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
+  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
+  
+  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
 
 </krpano>

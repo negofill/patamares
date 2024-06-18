@@ -504,7 +504,7 @@
 
 
   <hotspot name="spotpoint76"
-           ath="107.917699" atv="1.205511"
+           ath="107.917564" atv="1.205460"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -529,7 +529,7 @@
 
 
   <hotspot name="spotpoint2528"
-           ath="90.565822" atv="1.412170"
+           ath="90.565925" atv="1.412097"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -721,7 +721,7 @@
 
 
   <hotspot name="spotpoint2529"
-           ath="147.043101" atv="0.542532"
+           ath="147.043076" atv="0.542525"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -1164,7 +1164,7 @@
 
 
   <hotspot name="spotpoint78"
-           ath="140.708273" atv="2.097902"
+           ath="140.708170" atv="2.097895"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -1189,7 +1189,7 @@
 
 
   <hotspot name="spotpoint2530"
-           ath="-177.805515" atv="0.419580"
+           ath="-177.805516" atv="0.419583"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -1501,7 +1501,7 @@
 
 
   <hotspot name="spotpoint2525"
-           ath="-169.543568" atv="4.491682"
+           ath="-169.543584" atv="4.491724"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -1526,7 +1526,7 @@
 
 
   <hotspot name="spotpoint2526"
-           ath="149.792531" atv="3.327172"
+           ath="149.792404" atv="3.327119"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -2046,7 +2046,7 @@
 
 
   <hotspot name="spotpoint118"
-           ath="142.356406" atv="11.415929"
+           ath="142.356248" atv="11.415964"
            style="Iconponto"
            tag="point"
            distorted="true"
@@ -2263,7 +2263,7 @@
 
 
   <hotspot name="spotpoint2527"
-           ath="-0.923077" atv="8.685832"
+           ath="-0.923045" atv="8.685905"
            style="Iconponto"
            tag="point"
            distorted="true"

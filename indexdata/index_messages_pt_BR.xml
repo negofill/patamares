@@ -57,6 +57,8 @@
   <data name="pt_BR_contextmenucloseFsLabel"><![CDATA[Exit Fullscreen]]></data>
   <data name="pt_BR_contextmenuopenVrLabel"><![CDATA[Enter VR mode]]></data>
   <data name="pt_BR_logo2websiteurl"><![CDATA[https://maps.app.goo.gl/SLDhwCVWRM99uwSE9]]></data>
+  <data name="pt_BR_gallerynavprev_text"><![CDATA[Previous]]></data>
+  <data name="pt_BR_gallerynavnext_text"><![CDATA[Next]]></data>
   <data name="pt_BR_galleryclose_text"><![CDATA[Close]]></data>
   <data name="pt_BR_gallerypicture_title0"><![CDATA[]]></data>
   <data name="pt_BR_gallerypicture_caption0"><![CDATA[]]></data>
@@ -70,6 +72,8 @@
   <data name="pt_BR_gallerypicture_caption4"><![CDATA[]]></data>
   <data name="pt_BR_gallerypicture_title5"><![CDATA[]]></data>
   <data name="pt_BR_gallerypicture_caption5"><![CDATA[]]></data>
+  <data name="pt_BR_gallery1navprev_text"><![CDATA[Previous]]></data>
+  <data name="pt_BR_gallery1navnext_text"><![CDATA[Next]]></data>
   <data name="pt_BR_gallery1close_text"><![CDATA[Close]]></data>
   <data name="pt_BR_gallery1picture_title0"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_caption0"><![CDATA[]]></data>
@@ -79,14 +83,16 @@
   <data name="pt_BR_gallery1picture_caption1"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_title15"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_caption15"><![CDATA[]]></data>
-  <data name="pt_BR_gallery1picture_title2"><![CDATA[]]></data>
-  <data name="pt_BR_gallery1picture_caption2"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_title3"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_caption3"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_title4"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_caption4"><![CDATA[]]></data>
+  <data name="pt_BR_gallery1picture_title16"><![CDATA[]]></data>
+  <data name="pt_BR_gallery1picture_caption16"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_title5"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_caption5"><![CDATA[]]></data>
+  <data name="pt_BR_gallery1picture_title2"><![CDATA[]]></data>
+  <data name="pt_BR_gallery1picture_caption2"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_title6"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_caption6"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_title7"><![CDATA[]]></data>
@@ -103,8 +109,6 @@
   <data name="pt_BR_gallery1picture_caption13"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_title14"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_caption14"><![CDATA[]]></data>
-  <data name="pt_BR_gallery1picture_title16"><![CDATA[]]></data>
-  <data name="pt_BR_gallery1picture_caption16"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_title17"><![CDATA[]]></data>
   <data name="pt_BR_gallery1picture_caption17"><![CDATA[]]></data>
   <data name="pt_BR_gallery2fullscreen_text"><![CDATA[Fullscreen mode]]></data>
